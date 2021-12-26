@@ -49,7 +49,7 @@ def fastfood_places():
 
 def get_places(selection, city):
     if selection == 'restaurant':
-        with open('restaurant_places.json') as json_file:
+        with open('Домашна 3/static/json/restaurant_places.json') as json_file:
             data = json.load(json_file)[city]
             places = []
 
@@ -62,7 +62,7 @@ def get_places(selection, city):
 
         return places
     if selection == 'fastfood':
-        with open('fast_food_places.json') as json_file:
+        with open('Домашна 3/static/json/fast_food_places.json') as json_file:
             data = json.load(json_file)[city]
             places = []
 
