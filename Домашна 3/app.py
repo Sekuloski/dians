@@ -20,7 +20,7 @@ class Place:
         return "https://www.openstreetmap.org/?mlat=" + str(self.lat) + "&amp;mlon=" + str(self.lon) + "#map=15/" + str(self.lat) + "/" + str(self.lon)
 
 @app.route('/')
-def app():
+def index():
     return render_template('index.html')
 
 @app.route('/restaurant', methods=['GET'])
