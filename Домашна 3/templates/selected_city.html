@@ -20,9 +20,9 @@
     <div id="select-wrapper">
         <form method="get" action="get_map()" target="_blank" id="viewmap" name="viewmap">
             <select id="select-list" >
-                <option value="{{ places[0].get_larger_map() }}" selected>{{places[0].get_name()}}</option>
+                <option value="{{ places[0].get_location() }}" selected>{{places[0].get_name()}}</option>
                 {% for place in places[1:] %}
-                  <option value="{{ place.get_larger_map() }}">{{ place.get_name() }}</option>
+                  <option value="{{ place.get_location() }}">{{ place.get_name() }}</option>
                 {% endfor %}
             </select>
 
