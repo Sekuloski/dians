@@ -18,7 +18,7 @@
     <p class="first-para">Selekcija na grad</p>
 
     <div id="select-wrapper">
-        <form method="get" action="get_map()" target="_blank">
+        <form method="get" action="get_map()" target="_blank" id="viewmap" name="viewmap">
             <select id="select-list" >
                 <option value="{{ places[0].get_larger_map() }}" selected>{{places[0].get_name()}}</option>
                 {% for place in places[1:] %}
@@ -45,11 +45,9 @@
     {
         var e = document.getElementById("select-list");
         view_map = e.value;
+        document.viewmap.action = view_map;
     }
-    function get_map()
-    {
-        return view_map;
-    }
+
 </script>
 
 
