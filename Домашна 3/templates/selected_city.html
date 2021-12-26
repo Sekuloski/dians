@@ -18,8 +18,8 @@
     <p class="first-para">Selekcija na grad</p>
 
     <div id="select-wrapper">
-        <form action="/restaurant/choices">
-            <select name="place" method="GET" action="return get_map()" id="select-list" target="_blank">
+        <form action="return get_map()" target="_blank">
+            <select name="place" method="GET" action="/" id="select-list" >
                 <option value="{{ places[0].get_larger_map() }}" selected>{{places[0].get_name()}}</option>
                 {% for place in places[1:] %}
                   <option value="{{ place.get_larger_map() }}">{{ place.get_name() }}</option>
