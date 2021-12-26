@@ -27,11 +27,6 @@
                 </td>
             </tr>
             <div id="map-view">
-                <iframe id="location-map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
-                        marginwidth="0"
-                        src={{ place.get_location() }}
-                        style="border: 1px solid black"></iframe>
-                <br/>
                 <button id="larger-map-button"
                         onclick="location.href='{{ place.get_larger_map() }}'">
                     View Larger Map
@@ -42,11 +37,62 @@
         </table>
     </div>
     
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
+
+</head>
+<body>
+
+
+<div id="photo-wrapper">
+
+    <div id="left-side"></div>
+    <div id="right-side"></div>
+
+    <p class="first-para">Selekcija na grad</p>
+
+    <div id="select-wrapper">
+        <form action="/restaurant/choices">
+            <select name="place" method="GET" action="return get_map()" id="select-list">
+                <option value="{{places[0]}}" selected>{{places[0]}}</option>
+                {% for place in places[1:] %}
+                  <option value="{{ place.get_larger_map() }}">{{ place.get_name() }}</option>
+                {% endfor %}
+            </select>
+
+            <input target="_blank" type="submit" id="input-wrapper" value="View Map" onclick='view_map()'>
+        </form>
+    </div>
+
     <button onclick="location.href = '/'" class="button-wrapper-back">Back</button>
 
     <footer></footer>
 
 </div>
+
+<script>
+    document.getElementById("input-wrapper").onsubmit = function () {
+        location.href = "/selected_city";
+    };
+    var view_map;
+    function view_map()
+    {
+        var e = document.getElementById("select-list");
+        view_map = e.value;
+    }
+    funciton get_map()
+    {
+        return view_map;
+    }
+</script>
 
 
 </body>
