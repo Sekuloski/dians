@@ -14,7 +14,7 @@ class Place:
         return self.name
     
     def get_larger_map(self):
-        return "https://www.openstreetmap.org/?mlat=" + str(self.lat) + "&mlon=" + str(self.lon) + "#map=16/" + str(self.lat) + "/" + str(self.lon)
+        return "https://www.openstreetmap.org/?mlat=" + str(self.lat) + "&mlon=" + str(self.lon) + "#map=19/" + str(self.lat) + "/" + str(self.lon)
 
 @app.route('/')
 def index():
