@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn --pythonpath "Домашна 3" app:app
