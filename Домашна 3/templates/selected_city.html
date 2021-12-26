@@ -19,14 +19,14 @@
 
     <div id="select-wrapper">
         <form action="/restaurant/choices">
-            <select name="place" method="GET" action="return get_map()" id="select-list">
-                <option value="{{places[0]}}" selected>{{places[0]}}</option>
+            <select name="place" method="GET" action="return get_map()" id="select-list" target="_blank">
+                <option value="{{ place.get_larger_map() }}" selected>{{places[0].get_name()}}</option>
                 {% for place in places[1:] %}
                   <option value="{{ place.get_larger_map() }}">{{ place.get_name() }}</option>
                 {% endfor %}
             </select>
 
-            <input target="_blank" type="submit" id="input-wrapper" value="View Map" onclick='view_map()'>
+            <input type="submit" id="input-wrapper" value="View Map" onclick='view_map()'>
         </form>
     </div>
 
