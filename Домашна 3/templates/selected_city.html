@@ -40,12 +40,12 @@
     document.getElementById("input-wrapper").onsubmit = function () {
         location.href = "/selected_city";
     };
-    var view_map;
     function view_map()
     {
         var e = document.getElementById("select-list");
-        view_map = e.options[e.selectedIndex].value;
+        var view_map = e.options[e.selectedIndex].value;
         document.viewmap.action = view_map;
+        console.log(view_map)
     }
 
 </script>
