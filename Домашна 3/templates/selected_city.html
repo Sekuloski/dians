@@ -19,14 +19,14 @@
 
     <div id="select-wrapper">
         <form method="get" id="viewmap" name="viewmap" target="_blank">
-            <select onchange="alert(this.options[this.selectedIndex].value) "id="select-list" name="viewmap">
+            <select id="select-list" name="viewmap">
                 <option value="{{ places[0].get_larger_map() }}" selected>{{places[0].get_name()}}</option>
                 {% for place in places[1:] %}
                   <option value="{{ place.get_larger_map() }}">{{ place.get_name() }}</option>
                 {% endfor %}
             </select>
 
-            <input type="submit" id="input-wrapper" value="View Map">
+            <input type="submit" id="input-wrapper" value="View Map" onclick="view_map()">
         </form>
     </div>
 
