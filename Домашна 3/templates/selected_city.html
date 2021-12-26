@@ -11,48 +11,6 @@
 
 
 <div id="photo-wrapper">
-    <header></header>
-
-    <div id="left-side"></div>
-    <div id="right-side"></div>
-
-    <p class="first-para">Prikaz na lokacii</p>
-
-    <div id="table-view">
-        <table id="table-wrapper">
-            {% for place in places[:2] %}
-            <tr>
-                <td>
-                    {{ place.get_name() }}
-                </td>
-            </tr>
-            <div id="map-view">
-                <button id="larger-map-button"
-                        onclick="location.href='{{ place.get_larger_map() }}'">
-                    View Larger Map
-                </button>
-            </div>
-        
-            {% endfor %}
-        </table>
-    </div>
-    
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
-
-</head>
-<body>
-
-
-<div id="photo-wrapper">
 
     <div id="left-side"></div>
     <div id="right-side"></div>
