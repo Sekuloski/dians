@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
 
 </head>
 <body>
@@ -58,7 +58,7 @@
         </button>
     </div>
 
-    <button onclick="location.href = 'index2.html'" class="button-wrapper-back">Back</button>
+    <button onclick="location.href = '/selected_food_type'" class="button-wrapper-back">Back</button>
 
     <footer></footer>
 

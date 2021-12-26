@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
 
 </head>
 <body>
@@ -18,18 +18,18 @@
     <p class="first-para">Selekcija na grad</p>
 
     <div id="select-wrapper">
-        <form action="index3.html">
-            <select id="select-list">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="mercedes">Mercedes</option>
-                <option value="audi">Audi</option>
+        <form action="/selected_city">
+            <select name="cities" method="GET" action="/">
+                <option value="{{cities[0]}}" selected>{{cities[0]}}</option>
+                {% for city in cities[1:] %}
+                  <option value="{{city}}">{{city}}</option>
+                {% endfor %}
             </select>
             <input type="submit" id="input-wrapper" value="SUBMIT">
         </form>
     </div>
 
-    <button onclick="location.href = 'index.html'" class="button-wrapper-back">Back</button>
+    <button onclick="location.href = '/'" class="button-wrapper-back">Back</button>
 
     <footer></footer>
 
@@ -37,7 +37,7 @@
 
 <script>
     document.getElementById("input-wrapper").onsubmit = function () {
-        location.href = "index3.html";
+        location.href = "/selected_city";
     };
 </script>
 

@@ -1,5 +1,5 @@
 #photo-wrapper {
-    background-image: url("slika2.jpg");
+    background-image: url("../img/slika2.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -35,7 +35,7 @@
 }
 
 #photo-wrapper3 {
-    background-image: url("slika2.jpg");
+    background-image: url("../img/slika2.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
