@@ -13,11 +13,8 @@ class Place:
     def get_name(self):
         return self.name
     
-    def get_location(self):
-        return "https://www.openstreetmap.org/export/embed.html?bbox=" + str(self.lon) + "%2C" + str(self.lat) + "%2C" + str(self.lon) + "%2C" + str(self.lat) + "&amp;layer=mapnik&amp;marker=" + str(self.lon) + "%2C" + str(self.lat) + ""
-
     def get_larger_map(self):
-        return "https://www.openstreetmap.org/?mlat=" + str(self.lat) + "&amp;mlon=" + str(self.lon) + "#map=15/" + str(self.lat) + "/" + str(self.lon) +  "&amp;layer=mapnik&amp;marker=" + str(self.lon) + "%2C" + str(self.lat)
+        return "https://www.openstreetmap.org/?mlat=" + str(self.lat) + "&mlon=" + str(self.lon) + "#map=6/" + str(self.lat) + "/" + str(self.lon)
 
 @app.route('/')
 def index():
