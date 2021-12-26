@@ -18,6 +18,27 @@ def dropdown_fastfood():
     cities = get_cities('fastfood')
     return render_template('selected_food_type.html', cities=cities)
 
+@app.route('/selected_city', methods=['GET'])
+def places():
+    places = get_places()
+    city = request.args.get('city')
+    print(city)
+    return render_template('selected_city.html')
+
+def get_places(selection):
+    if selection == 'restaurant':
+        with open('restaurant_places.json') as json_file:
+            data = json.load(json_file)
+            places = []
+
+        return places
+    if selection == 'fastfood':
+        with open('fast_food_places.json') as json_file:
+            data = json.load(json_file)
+            places = []
+
+        return places
+
 def get_cities(selection):
     if selection == 'restaurant':
         with open('restaurant_places.json') as json_file:

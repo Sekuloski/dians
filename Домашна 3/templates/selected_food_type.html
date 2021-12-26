@@ -19,7 +19,7 @@
 
     <div id="select-wrapper">
         <form action="/selected_city">
-            <select name="cities" method="GET" action="/">
+            <select name="city" method="GET" action="/">
                 <option value="{{cities[0]}}" selected>{{cities[0]}}</option>
                 {% for city in cities[1:] %}
                   <option value="{{city}}">{{city}}</option>
