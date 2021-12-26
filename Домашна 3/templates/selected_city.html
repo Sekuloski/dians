@@ -19,14 +19,14 @@
 
     <div id="select-wrapper">
         <form method="get" name="viewmap" target="_blank">
-            <select id="select-list" name="viewmap">
+            <select onchange="alert(this.options[this.selectedIndex].value) "id="select-list" name="viewmap">
                 <option value="{{ places[0].get_larger_map() }}" selected>{{places[0].get_name()}}</option>
                 {% for place in places[1:] %}
                   <option value="{{ place.get_larger_map() }}">{{ place.get_name() }}</option>
                 {% endfor %}
             </select>
 
-            <input type="submit" id="input-wrapper" value="View Map" onclick='view_map()'>
+            <input type="submit" id="input-wrapper" value="View Map">
         </form>
     </div>
 
@@ -44,7 +44,7 @@
     function view_map()
     {
         var e = document.getElementById("select-list");
-        view_map = e.options.selectedIndex.value;
+        view_map = e.value;
         document.viewmap.action = view_map;
     }
 
