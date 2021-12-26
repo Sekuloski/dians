@@ -20,45 +20,29 @@
 
     <div id="table-view">
         <table id="table-wrapper">
+            {% for place in places[:2] %}
             <tr>
                 <td>
-                    Near Locations:
-                </td>
-                <td>
-                    Ime na restoran:
+                    {{ place.get_name() }}
                 </td>
             </tr>
-            <tr>
-                <td>
-                    Aerodrom
-                </td>
-                <td>
-                    Sedmica
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Centar
-                </td>
-                <td>
-                    Sedmica
-                </td>
-            </tr>
+            <div id="map-view">
+                <iframe id="location-map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
+                        marginwidth="0"
+                        src={{ place.get_location() }}
+                        style="border: 1px solid black"></iframe>
+                <br/>
+                <button id="larger-map-button"
+                        onclick="location.href='{{ place.get_larger_map() }}'">
+                    View Larger Map
+                </button>
+            </div>
+        
+            {% endfor %}
         </table>
     </div>
-    <div id="map-view">
-        <iframe id="location-map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
-                marginwidth="0"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=21.416859626770023%2C42.00523635034461%2C21.47350788116455%2C42.033101835451006&amp;layer=mapnik&amp;marker=42.01917061923413%2C21.445183753967285"
-                style="border: 1px solid black"></iframe>
-        <br/>
-        <button id="larger-map-button"
-                onclick="location.href='https://www.openstreetmap.org/?mlat=42.0192&amp;mlon=21.4452#map=15/42.0192/21.4452'">
-            View Larger Map
-        </button>
-    </div>
-
-    <button onclick="location.href = '/selected_food_type'" class="button-wrapper-back">Back</button>
+    
+    <button onclick="location.href = '/'" class="button-wrapper-back">Back</button>
 
     <footer></footer>
 

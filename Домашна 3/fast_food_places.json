@@ -1,1 +1,1426 @@
-{"\u0421\u043a\u043e\u043f\u0458\u0435": [{"type": "node", "id": 310348048, "lat": 41.9985413, "lon": 21.3918782, "tags": {"amenity": "fast_food", "name": "\u041b\u0430\u043f \u041b\u0430\u043f"}}, {"type": "node", "id": 470916907, "lat": 42.0003611, "lon": 21.4268596, "tags": {"amenity": "fast_food", "name": "\u0416\u0438\u0442\u043e \u041b\u0435\u0431", "shop": "bakery"}}, {"type": "node", "id": 918590533, "lat": 41.98705, "lon": 21.4313196, "tags": {"amenity": "fast_food", "cuisine": "pizza", "name": "four seasons"}}, {"type": "node", "id": 933634409, "lat": 41.9896275, "lon": 21.4597832, "tags": {"amenity": "fast_food", "name": "Fast food 7"}}, {"type": "node", "id": 1355336585, "lat": 42.0008922, "lon": 21.4173939, "tags": {"amenity": "fast_food", "cuisine": "sandwich", "name": "\u0421\u0435\u043d\u0434\u0432\u0438\u0447\u0430\u0440\u0430 \u041f\u043e\u043f\u0435"}}, {"type": "node", "id": 1381654588, "lat": 41.9990725, "lon": 21.4217901, "tags": {"amenity": "fast_food", "cuisine": "kebab", "name": "\u0413\u0438\u0440\u0430\u0434\u0438\u043a\u043e"}}, {"type": "node", "id": 1475404531, "lat": 42.0078102, "lon": 21.3695897, "tags": {"amenity": "fast_food", "int_name": "Pink", "name": "\u041f\u0438\u043d\u043a", "name:en": "Pink"}}, {"type": "node", "id": 1822907697, "lat": 42.0007595, "lon": 21.3899358, "tags": {"amenity": "fast_food", "cuisine": "burger", "int_name": "Vili - Grill", "name": "\u041b\u0435\u0441\u043a\u043e\u0432\u0430\u0447\u043a\u0430 \u0441\u043a\u0430\u0440\u0430 \u201e\u0412\u0438\u043b\u0438\u201c"}}, {"type": "node", "id": 1866179709, "lat": 41.9930256, "lon": 21.4302496, "tags": {"addr:city": "\u0421\u043a\u043e\u043f\u0458\u0435", "addr:housenumber": "12", "addr:postcode": "1000", "addr:street": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430", "amenity": "fast_food", "cuisine": "italian", "name": "Pizza FRESKO", "name:mk": "\u041f\u0438\u0446\u0435\u0440\u0438\u0458\u0430 \u0424\u0420\u0415\u0421\u041a\u041e", "phone": "+389 70 567295", "website": "http://www.facebook.com/Picerijafresko", "wheelchair": "yes"}}, {"type": "node", "id": 1870054369, "lat": 41.9936252, "lon": 21.4275081, "tags": {"amenity": "fast_food", "drive_through": "no", "name": "\u0413\u0438\u0440\u043e", "takeaway": "yes"}}, {"type": "node", "id": 2004962771, "lat": 42.0015351, "lon": 21.4059587, "tags": {"amenity": "fast_food", "name": "\u0412\u0438\u043b\u0438"}}, {"type": "node", "id": 2472332550, "lat": 41.9855468, "lon": 21.4330638, "tags": {"amenity": "fast_food", "name": "Go Get Burger"}}, {"type": "node", "id": 2858315264, "lat": 42.0035281, "lon": 21.4167758, "tags": {"addr:city": "\u0421\u043a\u043e\u043f\u0458\u0435", "addr:street": "\u041e\u0440\u0446\u0435 \u041d\u0438\u043a\u043e\u043b\u043e\u0432", "amenity": "fast_food", "cuisine": "regional", "name": "DM Restaurant", "opening_hours": "10:00-00:00"}}, {"type": "node", "id": 2887575858, "lat": 41.9893772, "lon": 21.4635675, "tags": {"amenity": "fast_food", "name": "\u041b\u0435\u0441\u043a\u043e\u0432\u0430\u0447\u043a\u0430 \u0412\u0438\u043b\u0438"}}, {"type": "node", "id": 3304519276, "lat": 41.9892217, "lon": 21.4634495, "tags": {"addr:city": "Skopje", "addr:postcode": "1000", "addr:street": "\u0411\u0443\u043b\u0435\u0432\u0430\u0440 \u0408\u0430\u043d\u0435 \u0421\u0430\u043d\u0434\u0430\u043d\u0441\u043a\u0438", "amenity": "fast_food", "name": "\u041b\u0435\u0441\u043a\u043e\u0432\u0430\u0446", "smoking": "isolated"}}, {"type": "node", "id": 3484101195, "lat": 41.9906511, "lon": 21.4207515, "tags": {"amenity": "fast_food", "cuisine": "burger", "name": "MFC - Macedonian Fried Chicken"}}, {"type": "node", "id": 3494577049, "lat": 42.0048773, "lon": 21.3912646, "tags": {"addr:city": "C\u043ao\u043fje", "addr:city:en": "Skopje", "addr:country": "MK", "addr:housename": "Skopje City Mall", "addr:postcode": "1000", "addr:street": "\u0409\u0443\u0431\u0459\u0430\u043d\u0441\u043a\u0430", "addr:street:en": "Ljubljanska", "amenity": "fast_food", "brand": "Burger King", "brand:wikidata": "Q177054", "brand:wikipedia": "en:Burger King", "cuisine": "burger", "level": "2", "name": "Burger King", "takeaway": "yes"}}, {"type": "node", "id": 3623547525, "lat": 41.9952491, "lon": 21.4238539, "tags": {"addr:city": "C\u043ao\u043fje", "addr:city:en": "Skopje", "addr:country": "MK", "addr:housenumber": "28", "addr:postcode": "1000", "addr:street": "\u041c\u0438\u0442\u0440\u043e\u043f\u043e\u043b\u0438\u0442 \u0422\u0435\u043e\u0434\u043e\u0441\u0438\u0458 \u0413\u043e\u043b\u043e\u0433\u0430\u043d\u043e\u0432", "amenity": "fast_food", "cuisine": "burger", "name": "Burger Friends", "takeaway": "only", "website": "http://www.burgerfriends.mk/"}}, {"type": "node", "id": 3663791822, "lat": 41.9811549, "lon": 21.4755231, "tags": {"addr:city": "Skopje", "addr:housenumber": "55", "addr:postcode": "1000", "addr:street": "\u0411\u0443\u043b\u0435\u0432\u0430\u0440 \u0412\u0438\u0434\u043e\u0435 \u0421\u043c\u0438\u043b\u0435\u0432\u0441\u043a\u0438 \u0411\u0430\u0442\u043e", "amenity": "fast_food", "cuisine": "burger", "delivery": "yes", "drive_through": "no", "name": "Royal Burger", "smoking": "outside", "takeaway": "yes"}}, {"type": "node", "id": 4187276689, "lat": 41.9977923, "lon": 21.4941048, "tags": {"amenity": "fast_food", "name": "\u0422\u043e\u043c\u0438"}}, {"type": "node", "id": 4190893589, "lat": 42.0000584, "lon": 21.4237032, "tags": {"amenity": "fast_food", "delivery": "yes", "name": "\u041f\u0435\u043c\u043f\u0435\u043b\u0435", "name:en": "Pempele's Pizza", "takeaway": "yes", "website": "http://www.pizzapempele.mk"}}, {"type": "node", "id": 4355253301, "lat": 41.9877171, "lon": 21.4531813, "tags": {"amenity": "fast_food", "name": "\u041b\u0435\u0441\u043a\u043e\u0432\u0430\u0447\u043a\u0430 \u0412\u0438\u043b\u0438"}}, {"type": "node", "id": 4394802591, "lat": 42.0031488, "lon": 21.4005479, "tags": {"amenity": "fast_food", "name": "Fast Food 7", "name:en": "7", "name:mk": "7", "website": "http://www.7.mk"}}, {"type": "node", "id": 4573205008, "lat": 42.0034744, "lon": 21.3979429, "tags": {"amenity": "fast_food", "cuisine": "asian", "level": "0", "name": "Tripod King", "takeaway": "yes"}}, {"type": "node", "id": 4573205010, "lat": 42.0026669, "lon": 21.3963477, "tags": {"amenity": "fast_food", "cuisine": "regional", "int_name": "Vegera", "level": "0", "name": "\u0412\u0435\u0433\u0435\u0440\u0430", "name:en": "Vegera", "opening_hours": "Mo-Sa 06:00-24:00, Su 08:00-24:00", "outdoor_seating": "yes", "smoking": "outside", "takeaway": "yes"}}, {"type": "node", "id": 4594432344, "lat": 41.9952816, "lon": 21.4348936, "tags": {"amenity": "fast_food", "cuisine": "mexican", "int_name": "La Puerta", "name": "\u041b\u0430 \u041f\u0443\u0435\u0440\u0442\u0430", "outdoor_seating": "no", "takeaway": "yes"}}, {"type": "node", "id": 4650540393, "lat": 41.9956244, "lon": 21.5093746, "tags": {"addr:street": "\u041f\u0430\u0440\u0438\u0441\u043a\u0430 \u041a\u043e\u043c\u0443\u043d\u0430", "amenity": "fast_food", "name": "Ketering Vkusno"}}, {"type": "node", "id": 4734473401, "lat": 42.018055, "lon": 21.4474069, "tags": {"addr:city": "C\u043ao\u043fje", "addr:street": "\u0411\u0443\u043b\u0435\u0432\u0430\u0440 \u0425\u0440\u0438\u0441\u0442\u0438\u0458\u0430\u043d \u0422\u043e\u0434\u043e\u0440\u043e\u0432\u0441\u043a\u0438 \u041a\u0430\u0440\u043f\u043e\u0448", "amenity": "fast_food", "cuisine": "regional", "name": "Burek", "operator": "Torbes"}}, {"type": "node", "id": 4920962547, "lat": 42.0038168, "lon": 21.3878449, "tags": {"amenity": "fast_food", "brand": "Domino's", "brand:wikidata": "Q839466", "brand:wikipedia": "en:Domino's Pizza", "cuisine": "pizza", "name": "Domino's", "operator": "Domino's", "takeaway": "only"}}, {"type": "node", "id": 5041735621, "lat": 42.0049046, "lon": 21.3909815, "tags": {"amenity": "fast_food", "name": "Chicken House", "name:en": "Chicken House", "name:mk": "Chicken House"}}, {"type": "node", "id": 5131817487, "lat": 41.9955107, "lon": 21.425567, "tags": {"addr:city": "C\u043ao\u043fje", "addr:housenumber": "26", "addr:postcode": "1000", "addr:street": "\u0414\u0438\u043c\u0438\u0442\u0440\u0438\u0435 \u0427\u0443\u043f\u043e\u0432\u0441\u043a\u0438", "amenity": "fast_food", "brand": "Domino's Pizza", "brand:wikidata": "Q839466", "brand:wikipedia": "en:Domino's Pizza", "cuisine": "pizza", "delivery": "yes", "description": "Limited seating options", "name": "Domino's Pizza", "opening_hours": "Mo-Su 10:00-24:00", "outdoor_seating": "yes", "short_name": "Domino's", "takeaway": "yes"}}, {"type": "node", "id": 5204164823, "lat": 42.003398, "lon": 21.4170443, "tags": {"amenity": "fast_food", "name": "Royal Burger"}}, {"type": "node", "id": 5289706560, "lat": 41.9915759, "lon": 21.4279999, "tags": {"amenity": "fast_food", "brand": "Burger King", "brand:wikidata": "Q177054", "brand:wikipedia": "en:Burger King", "cuisine": "burger", "name": "Burger King", "takeaway": "yes"}}, {"type": "node", "id": 5292130849, "lat": 41.9965778, "lon": 21.424583, "tags": {"amenity": "fast_food", "name": "American best burger"}}, {"type": "node", "id": 5299947547, "lat": 42.0029952, "lon": 21.4000902, "tags": {"amenity": "fast_food", "name": "Foodio"}}, {"type": "node", "id": 5331095878, "lat": 42.0065896, "lon": 21.4020786, "tags": {"amenity": "fast_food", "name": "Etna"}}, {"type": "node", "id": 5333318377, "lat": 42.0028979, "lon": 21.400699, "tags": {"amenity": "fast_food", "name": "\u0416\u0443\u0436\u0443 \u0411\u0443\u0440\u0433\u0435\u0440"}}, {"type": "node", "id": 5431407636, "lat": 42.0032708, "lon": 21.4012616, "tags": {"amenity": "fast_food", "name": "Magic"}}, {"type": "node", "id": 5660202454, "lat": 41.9999867, "lon": 21.4231465, "tags": {"amenity": "fast_food", "name": "Dogs bar", "outdoor_seating": "yes"}}, {"type": "node", "id": 5687563887, "lat": 41.9944177, "lon": 21.4318165, "tags": {"addr:city": "\u0421\u043a\u043e\u043f\u0458\u0435", "addr:housenumber": "2", "addr:postcode": "1000", "addr:street": "\u0414\u0438\u043c\u0438\u0442\u0440\u0438\u0435 \u0427\u0443\u043f\u043e\u0432\u0441\u043a\u0438", "amenity": "fast_food", "cuisine": "waffle", "drive_through": "no", "name": "BubbleWaffle's", "opening_hours": "10:00-21:00", "outdoor_seating": "no", "phone": "+389 78 243 483", "takeaway": "yes", "website": "https://www.facebook.com/bubblewaffleskopje/"}}, {"type": "node", "id": 5782900754, "lat": 41.9878133, "lon": 21.4457433, "tags": {"addr:postcode": "1000", "amenity": "fast_food", "cuisine": "sandwich;italian_pizza", "email": "bokiev44@gmail.com", "name": "\u041f\u0438\u0446\u0435\u0440\u0438\u0458\u0430 \u040f\u043e\u043a\u0435\u0440", "name:en": "Pizza Joker", "opening_hours": "Mo-Fr 09:00-23:00; Sa 11:00-11:00; Su 12:00-20:00", "phone": "+38976840031"}}, {"type": "node", "id": 5869018606, "lat": 42.0026892, "lon": 21.4605034, "tags": {"amenity": "fast_food", "cuisine": "regional;sandwich", "name": "\u041c\u043b\u0435\u0447\u0435\u043d \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0442 \u0410\u041d\u0415"}}, {"type": "node", "id": 6054048692, "lat": 41.9993211, "lon": 21.4184238, "tags": {"amenity": "fast_food", "name": "Cafe Pauza"}}, {"type": "node", "id": 6164755128, "lat": 42.0053622, "lon": 21.410023, "tags": {"amenity": "fast_food", "cuisine": "pizza", "name": "Spizzicotto", "opening_hours": "Mo-Fr 07:00-16:00; Sa 08:00-14:00", "takeaway": "yes"}}, {"type": "node", "id": 6164755129, "lat": 42.0053452, "lon": 21.4101783, "tags": {"amenity": "fast_food", "cuisine": "sandwich", "name": "Bon Appetit", "operator": "\u0408\u041e\u041d\u0421-\u0422\u0420\u041e\u0408\u041a\u0410 \u041a\u0435\u0442\u0435\u0440\u0438\u043d\u0433"}}, {"type": "node", "id": 6604781586, "lat": 41.9819621, "lon": 21.4682623, "tags": {"addr:postcode": "1000", "amenity": "fast_food", "email": "contact@lapizza.mk", "internet_access": "wlan", "name": "\u041b\u0430 \u043f\u0438\u0446\u0430", "name:en": "LaPizza", "opening_hours": "Mo-Su 09:00-23:00", "operator": "\u0422\u043e\u0434\u043e\u0440 \u0403\u043e\u0440\u0453\u0438\u0435\u0432", "phone": "+38972575756", "website": "http://lapizza.mk"}}, {"type": "node", "id": 6632801985, "lat": 41.995366, "lon": 21.434863, "tags": {"addr:postcode": "1000", "addr:street": "\u041a\u0435\u0458 13 \u041d\u043e\u0435\u043c\u0432\u0440\u0438", "amenity": "fast_food", "cuisine": "mexican", "diet:vegan": "yes", "name": "La Puerta", "opening_hours": "Mo-Su 08:00-00:00", "phone": "+389 78 442 897", "website": "http://www.lapuerta.mk/"}}, {"type": "node", "id": 6811622585, "lat": 41.9997339, "lon": 21.4358076, "tags": {"amenity": "fast_food", "cuisine": "sandwich;turkish", "diet:vegan": "yes", "diet:vegetarian": "only", "name": "Engin Cigk\u00f6fte (vegetarian)", "name:mk": "Engin Cigk\u00f6fte (very good vegetarian)"}}, {"type": "node", "id": 6814231699, "lat": 42.0000697, "lon": 21.4373728, "tags": {"amenity": "fast_food", "name": "Proper pizza"}}, {"type": "node", "id": 6814236601, "lat": 42.0025858, "lon": 21.4381868, "tags": {"amenity": "fast_food", "name": "Cardak"}}, {"type": "node", "id": 6814236605, "lat": 42.0029094, "lon": 21.4387207, "tags": {"amenity": "fast_food", "name": "Tetekis"}}, {"type": "node", "id": 6814246713, "lat": 42.0023225, "lon": 21.4389514, "tags": {"amenity": "fast_food", "name": "Doner"}}, {"type": "node", "id": 6814246719, "lat": 42.0004802, "lon": 21.4398152, "tags": {"amenity": "fast_food", "name": "Turkish Doner"}}, {"type": "node", "id": 6814247285, "lat": 42.0021842, "lon": 21.4384421, "tags": {"amenity": "fast_food", "name": "Hamza Doner"}}, {"type": "node", "id": 6815434690, "lat": 42.00005, "lon": 21.4176339, "tags": {"amenity": "fast_food", "name": "\u041f\u0435\u0442\u043b\u0435"}}, {"type": "node", "id": 6815931187, "lat": 41.9958593, "lon": 21.4323639, "tags": {"amenity": "fast_food", "brand": "Burger King", "brand:wikidata": "Q177054", "brand:wikipedia": "en:Burger King", "cuisine": "burger", "drive_through": "no", "name": "Burger King", "takeaway": "yes"}}, {"type": "node", "id": 7508938085, "lat": 41.9791956, "lon": 21.4789759, "tags": {"amenity": "fast_food", "name": "\u0413\u0440\u0430\u043d\u0434 \u0411\u0443\u0440\u0433\u0435\u0440", "name:en": "Grand Burger"}}, {"type": "node", "id": 7528237388, "lat": 41.9923177, "lon": 21.4308681, "tags": {"amenity": "fast_food", "name": "Per te"}}, {"type": "node", "id": 8188519796, "lat": 41.9968334, "lon": 21.4263872, "tags": {"amenity": "fast_food", "cuisine": "pasta", "drive_through": "no", "name": "\u0408\u0415\u0421 \u041f\u0430\u0441\u0442\u0430", "name:en": "\u0408\u0415S Pasta", "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-14:00", "phone": "+38926090192", "website": "https://www.instagram.com/jes_pasta/"}}, {"type": "node", "id": 8549720690, "lat": 42.0009144, "lon": 21.4162609, "tags": {"addr:city": "C\u043ao\u043fje", "addr:housenumber": "27", "addr:postcode": "1000", "addr:street": "\u0414\u0430\u043d\u0435 \u041a\u0440\u0430\u043f\u0447\u0435\u0432", "amenity": "fast_food", "cuisine": "sandwich", "drive_through": "no", "name": "Subzy", "opening_hours": "Mo-Fr 09:00-19:00; Sa 11:00-19:00", "phone": "+38971328554;+38923228044", "website": "https://subzy.mk/"}}, {"type": "node", "id": 8745676374, "lat": 41.9931575, "lon": 21.4283944, "tags": {"amenity": "fast_food", "cuisine": "sandwich;burger;chips", "drive_through": "no", "name": "Brisket Sandwich Bar"}}, {"type": "node", "id": 8946991737, "lat": 42.0013583, "lon": 21.4206316, "tags": {"amenity": "fast_food", "cuisine": "waffle", "drive_through": "no", "name": "Fluffy"}}, {"type": "node", "id": 9200216551, "lat": 42.003309, "lon": 21.4395663, "tags": {"amenity": "fast_food", "name": "Plaset"}}, {"type": "node", "id": 9200216562, "lat": 41.9932172, "lon": 21.4252785, "tags": {"amenity": "fast_food", "name": "Spizzicotto"}}], "\u041a\u043e\u0447\u0430\u043d\u0438": [{"type": "node", "id": 444537210, "lat": 41.9170217, "lon": 22.410796, "tags": {"amenity": "fast_food", "cuisine": "sandwich;burger", "drive_through": "no", "name": "\u0421\u0435\u043d\u0434\u0432\u0438\u0447\u0430\u0440\u0430 \u0410\u0437\u043c\u0430\u043d"}}], "\u0421\u0442\u0440\u0443\u043c\u0438\u0446\u0430": [{"type": "node", "id": 461661463, "lat": 41.4395826, "lon": 22.6379105, "tags": {"amenity": "fast_food", "name": "23"}}, {"type": "node", "id": 461663030, "lat": 41.4385145, "lon": 22.6490943, "tags": {"amenity": "fast_food", "name": "Bakers"}}], "\u041a\u0430\u0432\u0430\u0434\u0430\u0440\u0446\u0438": [{"type": "node", "id": 478041041, "lat": 41.4339698, "lon": 22.0137691, "tags": {"amenity": "fast_food", "cuisine": "burger", "name": "Fast Food"}}, {"type": "node", "id": 529806405, "lat": 41.4341433, "lon": 22.0116563, "tags": {"amenity": "fast_food", "name": "Marilyn"}}, {"type": "node", "id": 529811495, "lat": 41.4345938, "lon": 22.0157848, "tags": {"amenity": "fast_food", "name": "Marilyn"}}], "\u041c\u0430\u0432\u0440\u043e\u0432\u043e": [{"type": "node", "id": 543384566, "lat": 41.6368854, "lon": 20.721296, "tags": {"amenity": "fast_food", "int_name": "Trifkova Koliba", "name": "\u0422\u0440\u0438\u0444\u043a\u043e\u0432\u0430 \u041a\u043e\u043b\u0438\u0431\u0430"}}], "\u0428\u0442\u0438\u043f": [{"type": "node", "id": 989996644, "lat": 41.7371381, "lon": 22.1934589, "tags": {"amenity": "fast_food", "name": "Bambi"}}, {"type": "node", "id": 4239355303, "lat": 41.7386184, "lon": 22.1969715, "tags": {"amenity": "fast_food", "cuisine": "burger;regional;sandwich;kebab", "name": "\u0417\u0438\u043c\u0431\u0430\u043a\u043e"}}, {"type": "node", "id": 4247298789, "lat": 41.7384717, "lon": 22.1940792, "tags": {"amenity": "fast_food", "name": "\u0425\u0430\u043c\u0431\u0438"}}, {"type": "node", "id": 4247299589, "lat": 41.7371183, "lon": 22.1933812, "tags": {"amenity": "fast_food", "name": "JA-JA"}}, {"type": "node", "id": 6345996092, "lat": 41.7386743, "lon": 22.1963608, "tags": {"amenity": "fast_food", "cuisine": "kebab;sandwich", "name": "\u0421\u0442\u043e\u0458\u0430\u043d\u0447\u0435 \u041a\u0443\u0431\u0430\u0441\u043a\u0430\u0442\u0430"}}], "\u041a\u0443\u043c\u0430\u043d\u043e\u0432\u043e": [{"type": "node", "id": 1762422140, "lat": 42.1345469, "lon": 21.7183301, "tags": {"amenity": "fast_food", "name": "\u040f\u0443 \u040f\u0443 \u0411\u0443\u0440\u0433\u0435\u0440"}}, {"type": "node", "id": 1762422144, "lat": 42.1338027, "lon": 21.7173429, "tags": {"amenity": "fast_food", "int_name": "Arkadija", "name": "\u0410\u0440\u043a\u0430\u0434\u0438\u0458\u0430"}}, {"type": "node", "id": 6803017185, "lat": 42.1369953, "lon": 21.7114045, "tags": {"amenity": "fast_food", "name": "City Chicken"}}], "\u0422\u0430\u0458\u043c\u0438\u0448\u0442\u0435": [{"type": "node", "id": 2248576366, "lat": 41.6714481, "lon": 20.8540545, "tags": {"amenity": "fast_food", "int_name": "Stra\u017ea", "name": "\u0421\u0442\u0440\u0430\u0436\u0430", "name:en": "Strazha"}}], "\u0411\u0438\u0442\u043e\u043b\u0430": [{"type": "node", "id": 2316156253, "lat": 41.0296756, "lon": 21.3353453, "tags": {"amenity": "fast_food", "name": "SM-Sport"}}, {"type": "node", "id": 4411103897, "lat": 41.0300902, "lon": 21.3354104, "tags": {"amenity": "fast_food", "name": "\u041c\u0438\u043a\u0438 \u0411\u0443\u0440\u0433\u0435\u0440", "name:en": "Miki Burger"}}, {"type": "node", "id": 6781168985, "lat": 41.0279297, "lon": 21.3362463, "tags": {"amenity": "fast_food", "cuisine": "burger;kebab", "name": "\u041a\u043e\u0440\u043d\u0435\u0440"}}, {"type": "node", "id": 8582615349, "lat": 41.023422, "lon": 21.3387635, "tags": {"amenity": "fast_food", "name": "Giradiko"}}, {"type": "node", "id": 8863588366, "lat": 41.0273649, "lon": 21.3138592, "tags": {"amenity": "fast_food", "int_name": "Royal Burger", "name": "\u0420\u043e\u0458\u0430\u043b \u0411\u0443\u0440\u0433\u0435\u0440", "opening_hours": "Mo-Su 09:00-00:00", "phone": "+38970287751"}}, {"type": "node", "id": 8917358636, "lat": 41.0312779, "lon": 21.3332771, "tags": {"amenity": "fast_food", "name": "Mickey pizza"}}], "\u041e\u0445\u0440\u0438\u0434": [{"type": "node", "id": 2377969132, "lat": 41.1048119, "lon": 20.8081755, "tags": {"amenity": "fast_food", "name": "Big Pi"}}, {"type": "node", "id": 2377969280, "lat": 41.1135504, "lon": 20.8001299, "tags": {"amenity": "fast_food", "name": "Pink Panter"}}, {"type": "node", "id": 3826400405, "lat": 41.1127888, "lon": 20.7998658, "tags": {"amenity": "fast_food", "name": "\u0413\u0438\u0440\u043e \u041b\u0435\u0442\u043d\u0438\u0446\u0430", "name:en": "Giro Letnica"}}, {"type": "node", "id": 5601865133, "lat": 41.1180922, "lon": 20.7990387, "tags": {"amenity": "fast_food", "name": "City Chicken"}}, {"type": "node", "id": 6393028779, "lat": 41.1137008, "lon": 20.7997775, "tags": {"amenity": "fast_food", "name": "Burger Station"}}, {"type": "node", "id": 6830542197, "lat": 41.1236253, "lon": 20.8127566, "tags": {"amenity": "fast_food", "name": "Mar-mar"}}, {"type": "node", "id": 6831648804, "lat": 41.1123938, "lon": 20.7976565, "tags": {"amenity": "fast_food", "name": "Leonardo pizza"}}, {"type": "node", "id": 6833100790, "lat": 41.1139841, "lon": 20.7997732, "tags": {"amenity": "fast_food", "name": "Mr. Papo"}}, {"type": "node", "id": 6833103291, "lat": 41.1165763, "lon": 20.7995706, "tags": {"amenity": "fast_food", "name": "Kebapcilnica"}}, {"type": "node", "id": 6833103297, "lat": 41.115284, "lon": 20.8054718, "tags": {"amenity": "fast_food", "name": "Roast chicken"}}, {"type": "node", "id": 6837039489, "lat": 41.1168029, "lon": 20.7989377, "tags": {"amenity": "fast_food", "name": "Wkusno"}}, {"type": "node", "id": 8837742082, "lat": 41.114489, "lon": 20.8005464, "tags": {"amenity": "fast_food", "name": "Doner Kebap Hari"}}], "\u040c\u043e\u0458\u043b\u0438\u0458\u0430": [{"type": "node", "id": 3099553252, "lat": 41.9612516, "lon": 21.626938, "tags": {"amenity": "fast_food", "brand": "Burger King", "brand:wikidata": "Q177054", "brand:wikipedia": "en:Burger King", "cuisine": "burger", "level": "1", "name": "Burger King", "smoking": "no", "takeaway": "yes", "wheelchair": "yes"}}], "\u0413\u0435\u0432\u0433\u0435\u043b\u0438\u0458\u0430": [{"type": "node", "id": 3109618757, "lat": 41.1426925, "lon": 22.5008568, "tags": {"amenity": "fast_food", "delivery": "yes", "drive_through": "no", "name": "CLIQUE", "takeaway": "yes", "website": "http://clique.mk/"}}], "\u0412\u0435\u043b\u0435\u0441": [{"type": "node", "id": 3828431959, "lat": 41.7176771, "lon": 21.7828824, "tags": {"amenity": "fast_food", "name": "\u0420\u043e\u0458\u0430\u043b"}}], "\u041f\u0440\u0438\u043b\u0435\u043f": [{"type": "node", "id": 4142662213, "lat": 41.3505012, "lon": 21.5493109, "tags": {"amenity": "fast_food", "name": "\u0421\u0438\u0421"}}, {"type": "node", "id": 4142664989, "lat": 41.350337, "lon": 21.5493787, "tags": {"amenity": "fast_food", "name": "\u0421\u043d\u0438\u043a\u0435\u0440\u0441 \u0413\u0440\u0438\u0436\u043e"}}], "\u0422\u0435\u0442\u043e\u0432\u043e": [{"type": "node", "id": 4267660932, "lat": 42.0042064, "lon": 20.9896305, "tags": {"amenity": "fast_food", "cuisine": "chicken", "drive_through": "no", "email": "memedfeim@gmail.com", "name": "Chitir Chicken", "opening_hours": "Mo-Su 09:00-23:00", "phone": "+389 76 222 066", "takeaway": "yes"}}, {"type": "node", "id": 4267660933, "lat": 42.0041365, "lon": 20.9895845, "tags": {"amenity": "fast_food", "cuisine": "kebab", "name": "Doner Kebab"}}, {"type": "node", "id": 4267660934, "lat": 42.0042922, "lon": 20.9893133, "tags": {"amenity": "fast_food", "name": "\u0428\u0430\u0442\u0446\u0438", "name:en": "Shatzi"}}], "\u0418\u043b\u0438\u043d\u0434\u0435\u043d": [{"type": "node", "id": 4456514081, "lat": 41.9973758, "lon": 21.5737139, "tags": {"amenity": "fast_food", "name": "Gyroland"}}], "\u0413\u043e\u0441\u0442\u0438\u0432\u0430\u0440": [{"type": "node", "id": 4469867192, "lat": 41.798662, "lon": 20.9135714, "tags": {"amenity": "fast_food", "internet_access": "wlan", "name": "Happy M grill", "opening_hours": "Mo-Su 09:00-02:00"}}], "\u041a\u0430\u043c\u0435\u045a\u0430\u043d\u0435": [{"type": "node", "id": 4502450591, "lat": 41.940898, "lon": 20.9270945, "tags": {"addr:postcode": "1221", "addr:street": "101", "amenity": "fast_food", "cuisine": "kebab", "internet_access": "wlan", "name": "Max Doner", "name:en": "Max Doner", "name:mk": "Max Doner", "name:sq": "Max Doner"}}, {"type": "node", "id": 4502468092, "lat": 41.9420491, "lon": 20.9262185, "tags": {"amenity": "fast_food", "name": "Rinia 97", "name:en": "Rinia 97", "name:mk": "Rinia 97", "name:sq": "Rinia 97"}}], "\u041b\u0435\u0448\u043e\u043a": [{"type": "node", "id": 4705276389, "lat": 42.0597188, "lon": 21.0398878, "tags": {"amenity": "fast_food", "internet_access": "wlan", "name": "\u041a\u043e\u043d\u0442\u0440\u0430\u0441\u0442", "name:en": "Kontrast", "name:mk": "\u041a\u043e\u043d\u0442\u0440\u0430\u0441\u0442", "phone": "+38970656757"}}], "\u041a\u0440\u043a\u0459\u0430": [{"type": "node", "id": 6125715891, "lat": 42.2246851, "lon": 22.389952, "tags": {"amenity": "fast_food", "description": "Derven", "name": "\u0414\u0435\u0440\u0432\u0435\u043d"}}], "\u0421\u0442\u0430\u0440 \u0414\u043e\u0458\u0440\u0430\u043d": [{"type": "node", "id": 7124138444, "lat": 41.1838446, "lon": 22.7229882, "tags": {"addr:city": "\u0421\u0442\u0430\u0440 \u0414\u043e\u0458\u0440\u0430\u043d", "addr:postcode": "1487", "addr:street": "\u041a\u0430\u0458 5 \u0442\u0438 \u041d\u043e\u0435\u043c\u0432\u0440\u0438", "amenity": "fast_food", "drive_through": "no", "name": "\u0421\u0435\u043d\u0434\u0432\u0438\u0447\u0430\u0440\u0430 \u040f\u0438\u043d\u0430"}}, {"type": "node", "id": 7124138445, "lat": 41.1838017, "lon": 22.722996, "tags": {"addr:city": "\u0421\u0442\u0430\u0440 \u0414\u043e\u0458\u0440\u0430\u043d", "addr:postcode": "1487", "addr:street": "\u041a\u0430\u0458 5 \u0442\u0438 \u041d\u043e\u0435\u043c\u0432\u0440\u0438", "amenity": "fast_food", "drive_through": "no", "name": "\u0424\u043e\u0440\u0442\u0438 \u0421\u0435\u043d\u0434\u0432\u0438\u0447 \u0411\u0430\u0440"}}]}
+{
+    "\u0421\u043a\u043e\u043f\u0458\u0435": [
+        {
+            "type": "node",
+            "id": 310348048,
+            "lat": 41.9985413,
+            "lon": 21.3918782,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u041b\u0430\u043f \u041b\u0430\u043f"
+            }
+        },
+        {
+            "type": "node",
+            "id": 470916907,
+            "lat": 42.0003611,
+            "lon": 21.4268596,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0416\u0438\u0442\u043e \u041b\u0435\u0431",
+                "shop": "bakery"
+            }
+        },
+        {
+            "type": "node",
+            "id": 918590533,
+            "lat": 41.98705,
+            "lon": 21.4313196,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "pizza",
+                "name": "four seasons"
+            }
+        },
+        {
+            "type": "node",
+            "id": 933634409,
+            "lat": 41.9896275,
+            "lon": 21.4597832,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Fast food 7"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1355336585,
+            "lat": 42.0008922,
+            "lon": 21.4173939,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "sandwich",
+                "name": "\u0421\u0435\u043d\u0434\u0432\u0438\u0447\u0430\u0440\u0430 \u041f\u043e\u043f\u0435"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1381654588,
+            "lat": 41.9990725,
+            "lon": 21.4217901,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "kebab",
+                "name": "\u0413\u0438\u0440\u0430\u0434\u0438\u043a\u043e"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1475404531,
+            "lat": 42.0078102,
+            "lon": 21.3695897,
+            "tags": {
+                "amenity": "fast_food",
+                "int_name": "Pink",
+                "name": "\u041f\u0438\u043d\u043a",
+                "name:en": "Pink"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1822907697,
+            "lat": 42.0007595,
+            "lon": 21.3899358,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "burger",
+                "int_name": "Vili - Grill",
+                "name": "\u041b\u0435\u0441\u043a\u043e\u0432\u0430\u0447\u043a\u0430 \u0441\u043a\u0430\u0440\u0430 \u201e\u0412\u0438\u043b\u0438\u201c"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1866179709,
+            "lat": 41.9930256,
+            "lon": 21.4302496,
+            "tags": {
+                "addr:city": "\u0421\u043a\u043e\u043f\u0458\u0435",
+                "addr:housenumber": "12",
+                "addr:postcode": "1000",
+                "addr:street": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430",
+                "amenity": "fast_food",
+                "cuisine": "italian",
+                "name": "Pizza FRESKO",
+                "name:mk": "\u041f\u0438\u0446\u0435\u0440\u0438\u0458\u0430 \u0424\u0420\u0415\u0421\u041a\u041e",
+                "phone": "+389 70 567295",
+                "website": "http://www.facebook.com/Picerijafresko",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1870054369,
+            "lat": 41.9936252,
+            "lon": 21.4275081,
+            "tags": {
+                "amenity": "fast_food",
+                "drive_through": "no",
+                "name": "\u0413\u0438\u0440\u043e",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2004962771,
+            "lat": 42.0015351,
+            "lon": 21.4059587,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0412\u0438\u043b\u0438"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2472332550,
+            "lat": 41.9855468,
+            "lon": 21.4330638,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Go Get Burger"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2858315264,
+            "lat": 42.0035281,
+            "lon": 21.4167758,
+            "tags": {
+                "addr:city": "\u0421\u043a\u043e\u043f\u0458\u0435",
+                "addr:street": "\u041e\u0440\u0446\u0435 \u041d\u0438\u043a\u043e\u043b\u043e\u0432",
+                "amenity": "fast_food",
+                "cuisine": "regional",
+                "name": "DM Restaurant",
+                "opening_hours": "10:00-00:00"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2887575858,
+            "lat": 41.9893772,
+            "lon": 21.4635675,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u041b\u0435\u0441\u043a\u043e\u0432\u0430\u0447\u043a\u0430 \u0412\u0438\u043b\u0438"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3304519276,
+            "lat": 41.9892217,
+            "lon": 21.4634495,
+            "tags": {
+                "addr:city": "Skopje",
+                "addr:postcode": "1000",
+                "addr:street": "\u0411\u0443\u043b\u0435\u0432\u0430\u0440 \u0408\u0430\u043d\u0435 \u0421\u0430\u043d\u0434\u0430\u043d\u0441\u043a\u0438",
+                "amenity": "fast_food",
+                "name": "\u041b\u0435\u0441\u043a\u043e\u0432\u0430\u0446",
+                "smoking": "isolated"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3484101195,
+            "lat": 41.9906511,
+            "lon": 21.4207515,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "burger",
+                "name": "MFC - Macedonian Fried Chicken"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3494577049,
+            "lat": 42.0048773,
+            "lon": 21.3912646,
+            "tags": {
+                "addr:city": "C\u043ao\u043fje",
+                "addr:city:en": "Skopje",
+                "addr:country": "MK",
+                "addr:housename": "Skopje City Mall",
+                "addr:postcode": "1000",
+                "addr:street": "\u0409\u0443\u0431\u0459\u0430\u043d\u0441\u043a\u0430",
+                "addr:street:en": "Ljubljanska",
+                "amenity": "fast_food",
+                "brand": "Burger King",
+                "brand:wikidata": "Q177054",
+                "brand:wikipedia": "en:Burger King",
+                "cuisine": "burger",
+                "level": "2",
+                "name": "Burger King",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3623547525,
+            "lat": 41.9952491,
+            "lon": 21.4238539,
+            "tags": {
+                "addr:city": "C\u043ao\u043fje",
+                "addr:city:en": "Skopje",
+                "addr:country": "MK",
+                "addr:housenumber": "28",
+                "addr:postcode": "1000",
+                "addr:street": "\u041c\u0438\u0442\u0440\u043e\u043f\u043e\u043b\u0438\u0442 \u0422\u0435\u043e\u0434\u043e\u0441\u0438\u0458 \u0413\u043e\u043b\u043e\u0433\u0430\u043d\u043e\u0432",
+                "amenity": "fast_food",
+                "cuisine": "burger",
+                "name": "Burger Friends",
+                "takeaway": "only",
+                "website": "http://www.burgerfriends.mk/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3663791822,
+            "lat": 41.9811549,
+            "lon": 21.4755231,
+            "tags": {
+                "addr:city": "Skopje",
+                "addr:housenumber": "55",
+                "addr:postcode": "1000",
+                "addr:street": "\u0411\u0443\u043b\u0435\u0432\u0430\u0440 \u0412\u0438\u0434\u043e\u0435 \u0421\u043c\u0438\u043b\u0435\u0432\u0441\u043a\u0438 \u0411\u0430\u0442\u043e",
+                "amenity": "fast_food",
+                "cuisine": "burger",
+                "delivery": "yes",
+                "drive_through": "no",
+                "name": "Royal Burger",
+                "smoking": "outside",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4187276689,
+            "lat": 41.9977923,
+            "lon": 21.4941048,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0422\u043e\u043c\u0438"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4190893589,
+            "lat": 42.0000584,
+            "lon": 21.4237032,
+            "tags": {
+                "amenity": "fast_food",
+                "delivery": "yes",
+                "name": "\u041f\u0435\u043c\u043f\u0435\u043b\u0435",
+                "name:en": "Pempele's Pizza",
+                "takeaway": "yes",
+                "website": "http://www.pizzapempele.mk"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4355253301,
+            "lat": 41.9877171,
+            "lon": 21.4531813,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u041b\u0435\u0441\u043a\u043e\u0432\u0430\u0447\u043a\u0430 \u0412\u0438\u043b\u0438"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4394802591,
+            "lat": 42.0031488,
+            "lon": 21.4005479,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Fast Food 7",
+                "name:en": "7",
+                "name:mk": "7",
+                "website": "http://www.7.mk"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4573205008,
+            "lat": 42.0034744,
+            "lon": 21.3979429,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "asian",
+                "level": "0",
+                "name": "Tripod King",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4573205010,
+            "lat": 42.0026669,
+            "lon": 21.3963477,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "regional",
+                "int_name": "Vegera",
+                "level": "0",
+                "name": "\u0412\u0435\u0433\u0435\u0440\u0430",
+                "name:en": "Vegera",
+                "opening_hours": "Mo-Sa 06:00-24:00, Su 08:00-24:00",
+                "outdoor_seating": "yes",
+                "smoking": "outside",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4594432344,
+            "lat": 41.9952816,
+            "lon": 21.4348936,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "mexican",
+                "int_name": "La Puerta",
+                "name": "\u041b\u0430 \u041f\u0443\u0435\u0440\u0442\u0430",
+                "outdoor_seating": "no",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4650540393,
+            "lat": 41.9956244,
+            "lon": 21.5093746,
+            "tags": {
+                "addr:street": "\u041f\u0430\u0440\u0438\u0441\u043a\u0430 \u041a\u043e\u043c\u0443\u043d\u0430",
+                "amenity": "fast_food",
+                "name": "Ketering Vkusno"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4734473401,
+            "lat": 42.018055,
+            "lon": 21.4474069,
+            "tags": {
+                "addr:city": "C\u043ao\u043fje",
+                "addr:street": "\u0411\u0443\u043b\u0435\u0432\u0430\u0440 \u0425\u0440\u0438\u0441\u0442\u0438\u0458\u0430\u043d \u0422\u043e\u0434\u043e\u0440\u043e\u0432\u0441\u043a\u0438 \u041a\u0430\u0440\u043f\u043e\u0448",
+                "amenity": "fast_food",
+                "cuisine": "regional",
+                "name": "Burek",
+                "operator": "Torbes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4920962547,
+            "lat": 42.0038168,
+            "lon": 21.3878449,
+            "tags": {
+                "amenity": "fast_food",
+                "brand": "Domino's",
+                "brand:wikidata": "Q839466",
+                "brand:wikipedia": "en:Domino's Pizza",
+                "cuisine": "pizza",
+                "name": "Domino's",
+                "operator": "Domino's",
+                "takeaway": "only"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5041735621,
+            "lat": 42.0049046,
+            "lon": 21.3909815,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Chicken House",
+                "name:en": "Chicken House",
+                "name:mk": "Chicken House"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5131817487,
+            "lat": 41.9955107,
+            "lon": 21.425567,
+            "tags": {
+                "addr:city": "C\u043ao\u043fje",
+                "addr:housenumber": "26",
+                "addr:postcode": "1000",
+                "addr:street": "\u0414\u0438\u043c\u0438\u0442\u0440\u0438\u0435 \u0427\u0443\u043f\u043e\u0432\u0441\u043a\u0438",
+                "amenity": "fast_food",
+                "brand": "Domino's Pizza",
+                "brand:wikidata": "Q839466",
+                "brand:wikipedia": "en:Domino's Pizza",
+                "cuisine": "pizza",
+                "delivery": "yes",
+                "description": "Limited seating options",
+                "name": "Domino's Pizza",
+                "opening_hours": "Mo-Su 10:00-24:00",
+                "outdoor_seating": "yes",
+                "short_name": "Domino's",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5204164823,
+            "lat": 42.003398,
+            "lon": 21.4170443,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Royal Burger"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5289706560,
+            "lat": 41.9915759,
+            "lon": 21.4279999,
+            "tags": {
+                "amenity": "fast_food",
+                "brand": "Burger King",
+                "brand:wikidata": "Q177054",
+                "brand:wikipedia": "en:Burger King",
+                "cuisine": "burger",
+                "name": "Burger King",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5292130849,
+            "lat": 41.9965778,
+            "lon": 21.424583,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "American best burger"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5299947547,
+            "lat": 42.0029952,
+            "lon": 21.4000902,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Foodio"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5331095878,
+            "lat": 42.0065896,
+            "lon": 21.4020786,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Etna"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5333318377,
+            "lat": 42.0028979,
+            "lon": 21.400699,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0416\u0443\u0436\u0443 \u0411\u0443\u0440\u0433\u0435\u0440"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5431407636,
+            "lat": 42.0032708,
+            "lon": 21.4012616,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Magic"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5660202454,
+            "lat": 41.9999867,
+            "lon": 21.4231465,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Dogs bar",
+                "outdoor_seating": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5687563887,
+            "lat": 41.9944177,
+            "lon": 21.4318165,
+            "tags": {
+                "addr:city": "\u0421\u043a\u043e\u043f\u0458\u0435",
+                "addr:housenumber": "2",
+                "addr:postcode": "1000",
+                "addr:street": "\u0414\u0438\u043c\u0438\u0442\u0440\u0438\u0435 \u0427\u0443\u043f\u043e\u0432\u0441\u043a\u0438",
+                "amenity": "fast_food",
+                "cuisine": "waffle",
+                "drive_through": "no",
+                "name": "BubbleWaffle's",
+                "opening_hours": "10:00-21:00",
+                "outdoor_seating": "no",
+                "phone": "+389 78 243 483",
+                "takeaway": "yes",
+                "website": "https://www.facebook.com/bubblewaffleskopje/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5782900754,
+            "lat": 41.9878133,
+            "lon": 21.4457433,
+            "tags": {
+                "addr:postcode": "1000",
+                "amenity": "fast_food",
+                "cuisine": "sandwich;italian_pizza",
+                "email": "bokiev44@gmail.com",
+                "name": "\u041f\u0438\u0446\u0435\u0440\u0438\u0458\u0430 \u040f\u043e\u043a\u0435\u0440",
+                "name:en": "Pizza Joker",
+                "opening_hours": "Mo-Fr 09:00-23:00; Sa 11:00-11:00; Su 12:00-20:00",
+                "phone": "+38976840031"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5869018606,
+            "lat": 42.0026892,
+            "lon": 21.4605034,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "regional;sandwich",
+                "name": "\u041c\u043b\u0435\u0447\u0435\u043d \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0442 \u0410\u041d\u0415"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6054048692,
+            "lat": 41.9993211,
+            "lon": 21.4184238,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Cafe Pauza"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6164755128,
+            "lat": 42.0053622,
+            "lon": 21.410023,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "pizza",
+                "name": "Spizzicotto",
+                "opening_hours": "Mo-Fr 07:00-16:00; Sa 08:00-14:00",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6164755129,
+            "lat": 42.0053452,
+            "lon": 21.4101783,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "sandwich",
+                "name": "Bon Appetit",
+                "operator": "\u0408\u041e\u041d\u0421-\u0422\u0420\u041e\u0408\u041a\u0410 \u041a\u0435\u0442\u0435\u0440\u0438\u043d\u0433"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6604781586,
+            "lat": 41.9819621,
+            "lon": 21.4682623,
+            "tags": {
+                "addr:postcode": "1000",
+                "amenity": "fast_food",
+                "email": "contact@lapizza.mk",
+                "internet_access": "wlan",
+                "name": "\u041b\u0430 \u043f\u0438\u0446\u0430",
+                "name:en": "LaPizza",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "operator": "\u0422\u043e\u0434\u043e\u0440 \u0403\u043e\u0440\u0453\u0438\u0435\u0432",
+                "phone": "+38972575756",
+                "website": "http://lapizza.mk"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6632801985,
+            "lat": 41.995366,
+            "lon": 21.434863,
+            "tags": {
+                "addr:postcode": "1000",
+                "addr:street": "\u041a\u0435\u0458 13 \u041d\u043e\u0435\u043c\u0432\u0440\u0438",
+                "amenity": "fast_food",
+                "cuisine": "mexican",
+                "diet:vegan": "yes",
+                "name": "La Puerta",
+                "opening_hours": "Mo-Su 08:00-00:00",
+                "phone": "+389 78 442 897",
+                "website": "http://www.lapuerta.mk/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6811622585,
+            "lat": 41.9997339,
+            "lon": 21.4358076,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "sandwich;turkish",
+                "diet:vegan": "yes",
+                "diet:vegetarian": "only",
+                "name": "Engin Cigk\u00f6fte (vegetarian)",
+                "name:mk": "Engin Cigk\u00f6fte (very good vegetarian)"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6814231699,
+            "lat": 42.0000697,
+            "lon": 21.4373728,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Proper pizza"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6814236601,
+            "lat": 42.0025858,
+            "lon": 21.4381868,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Cardak"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6814236605,
+            "lat": 42.0029094,
+            "lon": 21.4387207,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Tetekis"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6814246713,
+            "lat": 42.0023225,
+            "lon": 21.4389514,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Doner"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6814246719,
+            "lat": 42.0004802,
+            "lon": 21.4398152,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Turkish Doner"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6814247285,
+            "lat": 42.0021842,
+            "lon": 21.4384421,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Hamza Doner"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6815434690,
+            "lat": 42.00005,
+            "lon": 21.4176339,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u041f\u0435\u0442\u043b\u0435"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6815931187,
+            "lat": 41.9958593,
+            "lon": 21.4323639,
+            "tags": {
+                "amenity": "fast_food",
+                "brand": "Burger King",
+                "brand:wikidata": "Q177054",
+                "brand:wikipedia": "en:Burger King",
+                "cuisine": "burger",
+                "drive_through": "no",
+                "name": "Burger King",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7508938085,
+            "lat": 41.9791956,
+            "lon": 21.4789759,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0413\u0440\u0430\u043d\u0434 \u0411\u0443\u0440\u0433\u0435\u0440",
+                "name:en": "Grand Burger"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7528237388,
+            "lat": 41.9923177,
+            "lon": 21.4308681,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Per te"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8188519796,
+            "lat": 41.9968334,
+            "lon": 21.4263872,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "pasta",
+                "drive_through": "no",
+                "name": "\u0408\u0415\u0421 \u041f\u0430\u0441\u0442\u0430",
+                "name:en": "\u0408\u0415S Pasta",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-14:00",
+                "phone": "+38926090192",
+                "website": "https://www.instagram.com/jes_pasta/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8549720690,
+            "lat": 42.0009144,
+            "lon": 21.4162609,
+            "tags": {
+                "addr:city": "C\u043ao\u043fje",
+                "addr:housenumber": "27",
+                "addr:postcode": "1000",
+                "addr:street": "\u0414\u0430\u043d\u0435 \u041a\u0440\u0430\u043f\u0447\u0435\u0432",
+                "amenity": "fast_food",
+                "cuisine": "sandwich",
+                "drive_through": "no",
+                "name": "Subzy",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 11:00-19:00",
+                "phone": "+38971328554;+38923228044",
+                "website": "https://subzy.mk/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8745676374,
+            "lat": 41.9931575,
+            "lon": 21.4283944,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "sandwich;burger;chips",
+                "drive_through": "no",
+                "name": "Brisket Sandwich Bar"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8946991737,
+            "lat": 42.0013583,
+            "lon": 21.4206316,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "waffle",
+                "drive_through": "no",
+                "name": "Fluffy"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9200216551,
+            "lat": 42.003309,
+            "lon": 21.4395663,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Plaset"
+            }
+        },
+        {
+            "type": "node",
+            "id": 9200216562,
+            "lat": 41.9932172,
+            "lon": 21.4252785,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Spizzicotto"
+            }
+        }
+    ],
+    "\u041a\u043e\u0447\u0430\u043d\u0438": [
+        {
+            "type": "node",
+            "id": 444537210,
+            "lat": 41.9170217,
+            "lon": 22.410796,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "sandwich;burger",
+                "drive_through": "no",
+                "name": "\u0421\u0435\u043d\u0434\u0432\u0438\u0447\u0430\u0440\u0430 \u0410\u0437\u043c\u0430\u043d"
+            }
+        }
+    ],
+    "\u0421\u0442\u0440\u0443\u043c\u0438\u0446\u0430": [
+        {
+            "type": "node",
+            "id": 461661463,
+            "lat": 41.4395826,
+            "lon": 22.6379105,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "23"
+            }
+        },
+        {
+            "type": "node",
+            "id": 461663030,
+            "lat": 41.4385145,
+            "lon": 22.6490943,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Bakers"
+            }
+        }
+    ],
+    "\u041a\u0430\u0432\u0430\u0434\u0430\u0440\u0446\u0438": [
+        {
+            "type": "node",
+            "id": 478041041,
+            "lat": 41.4339698,
+            "lon": 22.0137691,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "burger",
+                "name": "Fast Food"
+            }
+        },
+        {
+            "type": "node",
+            "id": 529806405,
+            "lat": 41.4341433,
+            "lon": 22.0116563,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Marilyn"
+            }
+        },
+        {
+            "type": "node",
+            "id": 529811495,
+            "lat": 41.4345938,
+            "lon": 22.0157848,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Marilyn"
+            }
+        }
+    ],
+    "\u041c\u0430\u0432\u0440\u043e\u0432\u043e": [
+        {
+            "type": "node",
+            "id": 543384566,
+            "lat": 41.6368854,
+            "lon": 20.721296,
+            "tags": {
+                "amenity": "fast_food",
+                "int_name": "Trifkova Koliba",
+                "name": "\u0422\u0440\u0438\u0444\u043a\u043e\u0432\u0430 \u041a\u043e\u043b\u0438\u0431\u0430"
+            }
+        }
+    ],
+    "\u0428\u0442\u0438\u043f": [
+        {
+            "type": "node",
+            "id": 989996644,
+            "lat": 41.7371381,
+            "lon": 22.1934589,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Bambi"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4239355303,
+            "lat": 41.7386184,
+            "lon": 22.1969715,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "burger;regional;sandwich;kebab",
+                "name": "\u0417\u0438\u043c\u0431\u0430\u043a\u043e"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4247298789,
+            "lat": 41.7384717,
+            "lon": 22.1940792,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0425\u0430\u043c\u0431\u0438"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4247299589,
+            "lat": 41.7371183,
+            "lon": 22.1933812,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "JA-JA"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6345996092,
+            "lat": 41.7386743,
+            "lon": 22.1963608,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "kebab;sandwich",
+                "name": "\u0421\u0442\u043e\u0458\u0430\u043d\u0447\u0435 \u041a\u0443\u0431\u0430\u0441\u043a\u0430\u0442\u0430"
+            }
+        }
+    ],
+    "\u041a\u0443\u043c\u0430\u043d\u043e\u0432\u043e": [
+        {
+            "type": "node",
+            "id": 1762422140,
+            "lat": 42.1345469,
+            "lon": 21.7183301,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u040f\u0443 \u040f\u0443 \u0411\u0443\u0440\u0433\u0435\u0440"
+            }
+        },
+        {
+            "type": "node",
+            "id": 1762422144,
+            "lat": 42.1338027,
+            "lon": 21.7173429,
+            "tags": {
+                "amenity": "fast_food",
+                "int_name": "Arkadija",
+                "name": "\u0410\u0440\u043a\u0430\u0434\u0438\u0458\u0430"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6803017185,
+            "lat": 42.1369953,
+            "lon": 21.7114045,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "City Chicken"
+            }
+        }
+    ],
+    "\u0422\u0430\u0458\u043c\u0438\u0448\u0442\u0435": [
+        {
+            "type": "node",
+            "id": 2248576366,
+            "lat": 41.6714481,
+            "lon": 20.8540545,
+            "tags": {
+                "amenity": "fast_food",
+                "int_name": "Stra\u017ea",
+                "name": "\u0421\u0442\u0440\u0430\u0436\u0430",
+                "name:en": "Strazha"
+            }
+        }
+    ],
+    "\u0411\u0438\u0442\u043e\u043b\u0430": [
+        {
+            "type": "node",
+            "id": 2316156253,
+            "lat": 41.0296756,
+            "lon": 21.3353453,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "SM-Sport"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4411103897,
+            "lat": 41.0300902,
+            "lon": 21.3354104,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u041c\u0438\u043a\u0438 \u0411\u0443\u0440\u0433\u0435\u0440",
+                "name:en": "Miki Burger"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6781168985,
+            "lat": 41.0279297,
+            "lon": 21.3362463,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "burger;kebab",
+                "name": "\u041a\u043e\u0440\u043d\u0435\u0440"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8582615349,
+            "lat": 41.023422,
+            "lon": 21.3387635,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Giradiko"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8863588366,
+            "lat": 41.0273649,
+            "lon": 21.3138592,
+            "tags": {
+                "amenity": "fast_food",
+                "int_name": "Royal Burger",
+                "name": "\u0420\u043e\u0458\u0430\u043b \u0411\u0443\u0440\u0433\u0435\u0440",
+                "opening_hours": "Mo-Su 09:00-00:00",
+                "phone": "+38970287751"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8917358636,
+            "lat": 41.0312779,
+            "lon": 21.3332771,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Mickey pizza"
+            }
+        }
+    ],
+    "\u041e\u0445\u0440\u0438\u0434": [
+        {
+            "type": "node",
+            "id": 2377969132,
+            "lat": 41.1048119,
+            "lon": 20.8081755,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Big Pi"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2377969280,
+            "lat": 41.1135504,
+            "lon": 20.8001299,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Pink Panter"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3826400405,
+            "lat": 41.1127888,
+            "lon": 20.7998658,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0413\u0438\u0440\u043e \u041b\u0435\u0442\u043d\u0438\u0446\u0430",
+                "name:en": "Giro Letnica"
+            }
+        },
+        {
+            "type": "node",
+            "id": 5601865133,
+            "lat": 41.1180922,
+            "lon": 20.7990387,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "City Chicken"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6393028779,
+            "lat": 41.1137008,
+            "lon": 20.7997775,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Burger Station"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6830542197,
+            "lat": 41.1236253,
+            "lon": 20.8127566,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Mar-mar"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6831648804,
+            "lat": 41.1123938,
+            "lon": 20.7976565,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Leonardo pizza"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6833100790,
+            "lat": 41.1139841,
+            "lon": 20.7997732,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Mr. Papo"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6833103291,
+            "lat": 41.1165763,
+            "lon": 20.7995706,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Kebapcilnica"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6833103297,
+            "lat": 41.115284,
+            "lon": 20.8054718,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Roast chicken"
+            }
+        },
+        {
+            "type": "node",
+            "id": 6837039489,
+            "lat": 41.1168029,
+            "lon": 20.7989377,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Wkusno"
+            }
+        },
+        {
+            "type": "node",
+            "id": 8837742082,
+            "lat": 41.114489,
+            "lon": 20.8005464,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Doner Kebap Hari"
+            }
+        }
+    ],
+    "\u040c\u043e\u0458\u043b\u0438\u0458\u0430": [
+        {
+            "type": "node",
+            "id": 3099553252,
+            "lat": 41.9612516,
+            "lon": 21.626938,
+            "tags": {
+                "amenity": "fast_food",
+                "brand": "Burger King",
+                "brand:wikidata": "Q177054",
+                "brand:wikipedia": "en:Burger King",
+                "cuisine": "burger",
+                "level": "1",
+                "name": "Burger King",
+                "smoking": "no",
+                "takeaway": "yes",
+                "wheelchair": "yes"
+            }
+        }
+    ],
+    "\u0413\u0435\u0432\u0433\u0435\u043b\u0438\u0458\u0430": [
+        {
+            "type": "node",
+            "id": 3109618757,
+            "lat": 41.1426925,
+            "lon": 22.5008568,
+            "tags": {
+                "amenity": "fast_food",
+                "delivery": "yes",
+                "drive_through": "no",
+                "name": "CLIQUE",
+                "takeaway": "yes",
+                "website": "http://clique.mk/"
+            }
+        }
+    ],
+    "\u0412\u0435\u043b\u0435\u0441": [
+        {
+            "type": "node",
+            "id": 3828431959,
+            "lat": 41.7176771,
+            "lon": 21.7828824,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0420\u043e\u0458\u0430\u043b"
+            }
+        }
+    ],
+    "\u041f\u0440\u0438\u043b\u0435\u043f": [
+        {
+            "type": "node",
+            "id": 4142662213,
+            "lat": 41.3505012,
+            "lon": 21.5493109,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0421\u0438\u0421"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4142664989,
+            "lat": 41.350337,
+            "lon": 21.5493787,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0421\u043d\u0438\u043a\u0435\u0440\u0441 \u0413\u0440\u0438\u0436\u043e"
+            }
+        }
+    ],
+    "\u0422\u0435\u0442\u043e\u0432\u043e": [
+        {
+            "type": "node",
+            "id": 4267660932,
+            "lat": 42.0042064,
+            "lon": 20.9896305,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "chicken",
+                "drive_through": "no",
+                "email": "memedfeim@gmail.com",
+                "name": "Chitir Chicken",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "phone": "+389 76 222 066",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4267660933,
+            "lat": 42.0041365,
+            "lon": 20.9895845,
+            "tags": {
+                "amenity": "fast_food",
+                "cuisine": "kebab",
+                "name": "Doner Kebab"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4267660934,
+            "lat": 42.0042922,
+            "lon": 20.9893133,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "\u0428\u0430\u0442\u0446\u0438",
+                "name:en": "Shatzi"
+            }
+        }
+    ],
+    "\u0418\u043b\u0438\u043d\u0434\u0435\u043d": [
+        {
+            "type": "node",
+            "id": 4456514081,
+            "lat": 41.9973758,
+            "lon": 21.5737139,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Gyroland"
+            }
+        }
+    ],
+    "\u0413\u043e\u0441\u0442\u0438\u0432\u0430\u0440": [
+        {
+            "type": "node",
+            "id": 4469867192,
+            "lat": 41.798662,
+            "lon": 20.9135714,
+            "tags": {
+                "amenity": "fast_food",
+                "internet_access": "wlan",
+                "name": "Happy M grill",
+                "opening_hours": "Mo-Su 09:00-02:00"
+            }
+        }
+    ],
+    "\u041a\u0430\u043c\u0435\u045a\u0430\u043d\u0435": [
+        {
+            "type": "node",
+            "id": 4502450591,
+            "lat": 41.940898,
+            "lon": 20.9270945,
+            "tags": {
+                "addr:postcode": "1221",
+                "addr:street": "101",
+                "amenity": "fast_food",
+                "cuisine": "kebab",
+                "internet_access": "wlan",
+                "name": "Max Doner",
+                "name:en": "Max Doner",
+                "name:mk": "Max Doner",
+                "name:sq": "Max Doner"
+            }
+        },
+        {
+            "type": "node",
+            "id": 4502468092,
+            "lat": 41.9420491,
+            "lon": 20.9262185,
+            "tags": {
+                "amenity": "fast_food",
+                "name": "Rinia 97",
+                "name:en": "Rinia 97",
+                "name:mk": "Rinia 97",
+                "name:sq": "Rinia 97"
+            }
+        }
+    ],
+    "\u041b\u0435\u0448\u043e\u043a": [
+        {
+            "type": "node",
+            "id": 4705276389,
+            "lat": 42.0597188,
+            "lon": 21.0398878,
+            "tags": {
+                "amenity": "fast_food",
+                "internet_access": "wlan",
+                "name": "\u041a\u043e\u043d\u0442\u0440\u0430\u0441\u0442",
+                "name:en": "Kontrast",
+                "name:mk": "\u041a\u043e\u043d\u0442\u0440\u0430\u0441\u0442",
+                "phone": "+38970656757"
+            }
+        }
+    ],
+    "\u041a\u0440\u043a\u0459\u0430": [
+        {
+            "type": "node",
+            "id": 6125715891,
+            "lat": 42.2246851,
+            "lon": 22.389952,
+            "tags": {
+                "amenity": "fast_food",
+                "description": "Derven",
+                "name": "\u0414\u0435\u0440\u0432\u0435\u043d"
+            }
+        }
+    ],
+    "\u0421\u0442\u0430\u0440 \u0414\u043e\u0458\u0440\u0430\u043d": [
+        {
+            "type": "node",
+            "id": 7124138444,
+            "lat": 41.1838446,
+            "lon": 22.7229882,
+            "tags": {
+                "addr:city": "\u0421\u0442\u0430\u0440 \u0414\u043e\u0458\u0440\u0430\u043d",
+                "addr:postcode": "1487",
+                "addr:street": "\u041a\u0430\u0458 5 \u0442\u0438 \u041d\u043e\u0435\u043c\u0432\u0440\u0438",
+                "amenity": "fast_food",
+                "drive_through": "no",
+                "name": "\u0421\u0435\u043d\u0434\u0432\u0438\u0447\u0430\u0440\u0430 \u040f\u0438\u043d\u0430"
+            }
+        },
+        {
+            "type": "node",
+            "id": 7124138445,
+            "lat": 41.1838017,
+            "lon": 22.722996,
+            "tags": {
+                "addr:city": "\u0421\u0442\u0430\u0440 \u0414\u043e\u0458\u0440\u0430\u043d",
+                "addr:postcode": "1487",
+                "addr:street": "\u041a\u0430\u0458 5 \u0442\u0438 \u041d\u043e\u0435\u043c\u0432\u0440\u0438",
+                "amenity": "fast_food",
+                "drive_through": "no",
+                "name": "\u0424\u043e\u0440\u0442\u0438 \u0421\u0435\u043d\u0434\u0432\u0438\u0447 \u0411\u0430\u0440"
+            }
+        }
+    ]
+}
