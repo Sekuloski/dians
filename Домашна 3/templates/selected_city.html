@@ -18,7 +18,7 @@
     <p class="first-para">Selekcija na grad</p>
 
     <div id="select-wrapper">
-        <form method="get" name="viewmap" target="_blank">
+        <form method="get" target="_blank">
             <select onchange="alert(this.options[this.selectedIndex].value) "id="select-list" name="viewmap">
                 <option value="{{ places[0].get_larger_map() }}" selected>{{places[0].get_name()}}</option>
                 {% for place in places[1:] %}
@@ -44,8 +44,9 @@
     function view_map()
     {
         var e = document.getElementById("select-list");
-        view_map = e.value;
+        view_map = e.options[e.selectedIndex].value;
         document.viewmap.action = view_map;
+        alert(view_map)
     }
 
 </script>
