@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+
+
+<div id="photo-wrapper">
+    <header></header>
+
+    <div id="left-side"></div>
+    <div id="right-side"></div>
+
+    <p class="first-para">Prikaz na lokacii</p>
+
+    <div id="table-view">
+        <table id="table-wrapper">
+            <tr>
+                <td>
+                    Near Locations:
+                </td>
+                <td>
+                    Ime na restoran:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Aerodrom
+                </td>
+                <td>
+                    Sedmica
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Centar
+                </td>
+                <td>
+                    Sedmica
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="map-view">
+        <iframe id="location-map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
+                marginwidth="0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=21.416859626770023%2C42.00523635034461%2C21.47350788116455%2C42.033101835451006&amp;layer=mapnik&amp;marker=42.01917061923413%2C21.445183753967285"
+                style="border: 1px solid black"></iframe>
+        <br/>
+        <button id="larger-map-button"
+                onclick="location.href='https://www.openstreetmap.org/?mlat=42.0192&amp;mlon=21.4452#map=15/42.0192/21.4452'">
+            View Larger Map
+        </button>
+    </div>
+
+    <button onclick="location.href = 'index2.html'" class="button-wrapper-back">Back</button>
+
+    <footer></footer>
+
+</div>
+
+
+</body>
+</html>

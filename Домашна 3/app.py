@@ -6,7 +6,7 @@ app.debug = True
 
 @app.route('/')
 def index():
-    return render_template('base.html')
+    return render_template('index.html')
 
 @app.route('/cities', methods=['GET'])
 def dropdown():

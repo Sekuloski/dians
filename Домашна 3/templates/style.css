@@ -1,0 +1,202 @@
+#photo-wrapper {
+    background-image: url("slika2.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.first-para {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    color: white;
+}
+
+#left-side {
+    float: left;
+    height: 100%;
+    width: 18%;
+    background-color: darkred;
+    opacity: 40%;
+
+}
+
+#right-side {
+    float: right;
+    height: 100%;
+    width: 18%;
+    background-color: darkred;
+    opacity: 40%;
+
+}
+
+#photo-wrapper3 {
+    background-image: url("slika2.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: 270px;
+    margin-top: -50px;
+    padding-bottom: 40px;
+
+}
+
+body, html {
+
+    background-repeat: no-repeat;
+    /*position: center;*/
+    /*!*width: 900px;*!*/
+    background-color: saddlebrown;
+    /*width: 1000px;*/
+    /*height: 740px;*/
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /*width: 1000px;*/
+    margin: auto;
+
+}
+
+button {
+    width: 400px;
+    height: 200px;
+    font-size: 50px;
+    background-color: darkred;
+    opacity: 60%;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+}
+
+button:hover {
+    opacity: 100%;
+}
+
+#button-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 805px;
+    margin: 0px;
+}
+
+#select-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    width: 704px;
+    margin: 0px;
+}
+
+#select-list {
+    height: 30px;
+    width: 500px;
+    padding-left: 5px;
+    border-radius: 20px;
+    background-color: rgba(139, 0, 0, 0.7);
+    color: white;
+    font-size: 20px;
+}
+
+form {
+    width: 100%;
+    height: 80px;
+    margin: 0px;
+}
+
+#input-wrapper {
+    position: absolute;
+    height: 32px;
+    width: 200px;
+    bottom: 49px;
+    right: 0px;
+    border-radius: 5px;
+    background-color: rgba(139, 0, 0, 0.7);
+    color: white;
+    font-size: 15px;
+}
+
+#table-view {
+    position: absolute;
+    left: 34%;
+    top: 53%;
+    transform: translate(-56%, -57%);
+    width: 355px;
+    height: 750px;
+}
+
+#table-wrapper {
+    position: absolute;
+    top: 120px;
+    width: 290px;
+    color: white;
+    font-size: 20px;
+}
+
+#map-view {
+    position: absolute;
+    left: 66%;
+    top: 50%;
+    transform: translate(-56%, -57%);
+    height: 400px;
+    width: 480px;
+}
+
+#larger-map-button {
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    opacity: 80%;
+}
+
+.button-wrapper-back {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    height: 75px;
+    width: 190px;
+}
+
+#larger-map-button:hover {
+    opacity: 100%;
+}
+
+a:hover {
+}
+
+a:active {
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+
+/*body {*/
+/*    !*background-size: 700px, 1024px;*!*/
+/*    !*height: 700px;*!*/
+/*    !*width: 1024px;*!*/
+/*    !*position: absolute;*!*/
+/*    !*left: 100px;*!*/
+
+/*    top: 100px;*/
+/*    background: saddlebrown url("slika1.jpg") no-repeat fixed center;*/
+
+
+/*    !*background-color: saddlebrown;*!*/
+
+/*    !*background-position: center;*!*/
+/*}*/

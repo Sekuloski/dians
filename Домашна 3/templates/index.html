@@ -1,33 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="generator" content="Desech Studio">
-  <meta name="description" content="Desech Studio page">
-  <title>Test</title>
-  <base href="">
-  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/general/reset.css') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/general/animation.css') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/general/font.css') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/general/root.css') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/general/component-css.css') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/general/component-html.css') }}">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/page/index.css') }}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+
+
 </head>
-
 <body>
-  <div class="block e0r3d6yd">
-    <p class="text e0oomwmf">Изберете град:</p>
-    <select class="e0ei85s4" name=cities method="GET" action="/">
-      <option value="{{cities[0]}}" selected>{{cities[0]}}</option>
-      {% for city in cities[1:] %}
-      <option value="{{city}}">{{city}}</option>
-      {% endfor %}
-    </select>
-  </div>
-</body>
 
+
+<div id="photo-wrapper">
+
+    <div id="left-side"></div>
+    <div id="right-side"></div>
+
+    <p class="first-para">Select type of location</p>
+
+    <div id="button-wrapper">
+        <button onclick="location.href = 'index2.html'">Restaurant</button>
+        <button onclick="location.href = 'index2.html'">Fast food</button>
+    </div>
+
+    <footer></footer>
+
+</div>
+
+
+<script>
+    // document.getElementsByTagName("button").onclick = function () {
+    //     location.href = "index2.html";
+    // };
+</script>
+
+</body>
 </html>
