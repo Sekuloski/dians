@@ -9,11 +9,68 @@
 
 }
 
+
+.banner_one{
+    background-image: url("../img/banner.png");
+    background-position: 68px -82px;
+    /*background-size: px;*/
+    position: absolute;
+    top: 11px;
+    left: 424px;
+    /*background-color: aqua;*/
+    width: 677px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 581px 348px;
+    opacity: 70%;
+}
+.banner_two{
+    background-image: url("../img/banner.png");
+    background-position: 68px -82px;
+    /*background-size: px;*/
+    position: absolute;
+    top: 11px;
+    left: 424px;
+    /*background-color: aqua;*/
+    width: 677px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 417px 348px;
+    opacity: 70%;
+}
+.banner_tree{
+    background-image: url("../img/banner.png");
+    background-position: 75px -84px;
+    /*background-size: px;*/
+    position: absolute;
+    top: 11px;
+    left: 424px;
+    /*background-color: aqua;*/
+    width: 677px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 505px 354px;
+    opacity: 70%;
+}
+
+
 .first-para {
+    /*background-image: url("banner.png");*/
+    /*background-position: 100px 0px;*/
+    /*background-size: px;*/
+    background-repeat: no-repeat;
     font-size: 40px;
     font-weight: bold;
     margin: 0px;
     color: white;
+    text-align: center;
+    /*padding-top: 70px;*/
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+#banner{
+
 }
 
 #left-side {
@@ -21,7 +78,7 @@
     height: 100%;
     width: 18%;
     background-color: darkred;
-    opacity: 40%;
+    opacity: 50%;
 
 }
 
@@ -30,7 +87,7 @@
     height: 100%;
     width: 18%;
     background-color: darkred;
-    opacity: 40%;
+    opacity: 50%;
 
 }
 
@@ -48,6 +105,9 @@
 }
 
 body, html {
+
+    /*font-family: Arial, Helvetica, sans-serif;*/
+
 
     background-repeat: no-repeat;
     /*position: center;*/
@@ -91,7 +151,7 @@ button:hover {
 #select-wrapper {
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 30%;
     transform: translate(-50%, -50%);
     width: 704px;
     margin: 0px;
@@ -171,7 +231,6 @@ form {
 #larger-map-button:hover {
     opacity: 100%;
 }
-
 
 /*body {*/
 /*    !*background-size: 700px, 1024px;*!*/

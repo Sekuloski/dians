@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -15,7 +16,8 @@
     <div id="left-side"></div>
     <div id="right-side"></div>
 
-    <p class="first-para">Selekcija na grad</p>
+    <div class="banner_two"></div>
+    <p class="first-para">Select a city</p>
 
     <div id="select-wrapper">
         <form action="/restaurant/choices">
