@@ -1,10 +1,8 @@
 import json
-import os
 
 from flask import Flask, render_template, request
 
-template_dir = os.path.abspath('../Website/templates')
-app = Flask(__name__, template_folder=template_dir)
+app = Flask(__name__)
 app.debug = True
 
 
