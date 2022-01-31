@@ -20,7 +20,7 @@ def restaurants():
 
 
 @app.route('/fast_food', methods=['GET'])
-def restaurants():
+def fast_food():
     with open('json/fast_food_places.json') as json_file:
         data = json.load(json_file)
         return data
