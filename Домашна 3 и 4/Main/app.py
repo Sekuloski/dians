@@ -4,6 +4,7 @@ import json
 app = Flask(__name__)
 app.debug = True
 
+
 class Place:
     def __init__(self, lat, lon, name):
         self.lat = lat
@@ -12,30 +13,35 @@ class Place:
 
     def get_name(self):
         return self.name
-    
+
     def get_larger_map(self):
-        return "https://www.openstreetmap.org/?mlat=" + str(self.lat) + "&mlon=" + str(self.lon) + "#map=19/" + str(self.lat) + "/" + str(self.lon)
+        return "https://www.openstreetmap.org/?mlat=" + str(self.lat) + "&mlon=" + str(self.lon) + "#map=19/" + str(
+            self.lat) + "/" + str(self.lon)
+
 
 @app.route('/')
 def index():
     return render_template('index.html')
+
 
 @app.route('/restaurant', methods=['GET'])
 def dropdown_restaurant():
     cities = get_cities('restaurant')
     return render_template('restaurant.html', cities=cities)
 
+
 @app.route('/fastfood', methods=['GET'])
 def dropdown_fastfood():
     cities = get_cities('fastfood')
     return render_template('fastfood.html', cities=cities)
 
+
 @app.route('/restaurant/choices', methods=['GET'])
 def restaurant_places():
     city = request.args.get('city')
     places = get_places('restaurant', city)
-    print(city)
     return render_template('selected_city.html', places=places)
+
 
 @app.route('/fastfood/choices', methods=['GET'])
 def fastfood_places():
@@ -44,7 +50,8 @@ def fastfood_places():
     print(city)
     return render_template('selected_city.html', places=places)
 
-def get_places(selection, city):
+
+def get_places(selection, city):  # Return all places in the selected city.
     if selection == 'restaurant':
         with open('Домашна 3 и 4/static/json/restaurant_places.json') as json_file:
             data = json.load(json_file)[city]
@@ -71,6 +78,7 @@ def get_places(selection, city):
                 places.append(place)
 
         return places
+
 
 def get_cities(selection):
     if selection == 'restaurant':
@@ -89,6 +97,7 @@ def get_cities(selection):
             for key in data.keys():
                 cities_sk.append(key)
         return cities_sk
+
 
 if __name__ == "__main__":
     app.run()
