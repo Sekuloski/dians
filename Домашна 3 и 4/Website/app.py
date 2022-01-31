@@ -1,5 +1,6 @@
 import json
 
+import requests
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
@@ -54,49 +55,49 @@ def fastfood_places():
 
 def get_places(selection, city):  # Return all places in the selected city.
     if selection == 'restaurant':
-        with open('Домашна 3 и 4/static/json/restaurant_places.json') as json_file:  # DATABASE
-            data = json.load(json_file)[city]
-            places = []
+        data = requests.get('https://data-collection-dians.herokuapp.com/restaurants').json()
+        data = json.load(data)[city]
+        places = []
 
-            for place in data:
-                lat = place['lat']
-                lon = place['lon']
-                name = place['tags']['name']
-                place = Place(lat, lon, name)
-                places.append(place)
+        for place in data:
+            lat = place['lat']
+            lon = place['lon']
+            name = place['tags']['name']
+            place = Place(lat, lon, name)
+            places.append(place)
 
         return places
     if selection == 'fastfood':
-        with open('Домашна 3 и 4/static/json/fast_food_places.json') as json_file:  # DATABASE
-            data = json.load(json_file)[city]
-            places = []
+        data = requests.get('https://data-collection-dians.herokuapp.com/fast_food').json()
+        data = json.load(data)[city]
+        places = []
 
-            for place in data:
-                lat = place['lat']
-                lon = place['lon']
-                name = place['tags']['name']
-                place = Place(lat, lon, name)
-                places.append(place)
+        for place in data:
+            lat = place['lat']
+            lon = place['lon']
+            name = place['tags']['name']
+            place = Place(lat, lon, name)
+            places.append(place)
 
         return places
 
 
 def get_cities(selection):
     if selection == 'restaurant':
-        with open('Домашна 3 и 4/static/json/restaurant_places.json') as json_file:  # DATABASE
-            data = json.load(json_file)
-            cities_sk = []
+        data = requests.get('https://data-collection-dians.herokuapp.com/restaurants').json()
+        data = json.load(data)
+        cities_sk = []
 
-            for key in data.keys():
-                cities_sk.append(key)
+        for key in data.keys():
+            cities_sk.append(key)
         return cities_sk
     if selection == 'fastfood':
-        with open('Домашна 3 и 4/static/json/fast_food_places.json') as json_file:  # DATABASE
-            data = json.load(json_file)
-            cities_sk = []
+        data = requests.get('https://data-collection-dians.herokuapp.com/fast_food').json()
+        data = json.load(data)
+        cities_sk = []
 
-            for key in data.keys():
-                cities_sk.append(key)
+        for key in data.keys():
+            cities_sk.append(key)
         return cities_sk
 
 
