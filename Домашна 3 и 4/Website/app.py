@@ -1,7 +1,10 @@
-from flask import Flask, render_template, request, url_for
 import json
+import os
 
-app = Flask(__name__)
+from flask import Flask, render_template, request
+
+template_dir = os.path.abspath('../Website/templates')
+app = Flask(__name__, template_folder=template_dir)
 app.debug = True
 
 
@@ -53,7 +56,7 @@ def fastfood_places():
 
 def get_places(selection, city):  # Return all places in the selected city.
     if selection == 'restaurant':
-        with open('Домашна 3 и 4/static/json/restaurant_places.json') as json_file:
+        with open('Домашна 3 и 4/static/json/restaurant_places.json') as json_file:  # DATABASE
             data = json.load(json_file)[city]
             places = []
 
@@ -66,7 +69,7 @@ def get_places(selection, city):  # Return all places in the selected city.
 
         return places
     if selection == 'fastfood':
-        with open('Домашна 3 и 4/static/json/fast_food_places.json') as json_file:
+        with open('Домашна 3 и 4/static/json/fast_food_places.json') as json_file:  # DATABASE
             data = json.load(json_file)[city]
             places = []
 
@@ -82,7 +85,7 @@ def get_places(selection, city):  # Return all places in the selected city.
 
 def get_cities(selection):
     if selection == 'restaurant':
-        with open('Домашна 3 и 4/static/json/restaurant_places.json') as json_file:
+        with open('Домашна 3 и 4/static/json/restaurant_places.json') as json_file:  # DATABASE
             data = json.load(json_file)
             cities_sk = []
 
@@ -90,7 +93,7 @@ def get_cities(selection):
                 cities_sk.append(key)
         return cities_sk
     if selection == 'fastfood':
-        with open('Домашна 3 и 4/static/json/fast_food_places.json') as json_file:
+        with open('Домашна 3 и 4/static/json/fast_food_places.json') as json_file:  # DATABASE
             data = json.load(json_file)
             cities_sk = []
 
