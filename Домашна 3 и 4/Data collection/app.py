@@ -19,7 +19,7 @@ def restaurants():
         return data
 
 
-@app.route('/fast_food', methods=['GET'])
+@app.route('/fastfood', methods=['GET'])
 def fast_food():
     with open('json/fast_food_places.json') as json_file:
         data = json.load(json_file)
@@ -32,7 +32,7 @@ def update():
     get_restaurant_places()
 
 
-def get_fast_food_places():
+def get_fast_food_places():  # Updates the database with fast food places. It runs by going to the /update endpoint.
     global overpass_url, overpass_query, response, fast_food_places
     overpass_url = "http://overpass-api.de/api/interpreter"
     overpass_query = """
@@ -74,7 +74,7 @@ def get_fast_food_places():
     f.close()
 
 
-def get_restaurant_places():
+def get_restaurant_places():  # Updates the database with fast food places. It runs by going to the /update endpoint.
     global overpass_url, overpass_query, response
     overpass_url = "http://overpass-api.de/api/interpreter"
     overpass_query = """

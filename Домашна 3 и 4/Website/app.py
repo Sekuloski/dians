@@ -1,11 +1,11 @@
-import json
-
 import requests
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
 app.debug = True
 
+
+# Class that represents every place in the database.
 
 class Place:
     def __init__(self, lat, lon, name):
@@ -49,14 +49,12 @@ def restaurant_places():
 def fastfood_places():
     city = request.args.get('city')
     places = get_places('fastfood', city)
-    print(city)
     return render_template('selected_city.html', places=places)
 
 
 def get_places(selection, city):  # Return all places in the selected city.
     if selection == 'restaurant':
-        data = requests.get('https://data-collection-dians.herokuapp.com/restaurants').json()
-        data = json.load(data)[city]
+        data = requests.get('https://data-collection-dians.herokuapp.com/restaurants').json()[city]
         places = []
 
         for place in data:
@@ -68,8 +66,7 @@ def get_places(selection, city):  # Return all places in the selected city.
 
         return places
     if selection == 'fastfood':
-        data = requests.get('https://data-collection-dians.herokuapp.com/fast_food').json()
-        data = json.load(data)[city]
+        data = requests.get('https://data-collection-dians.herokuapp.com/fast_food').json()[city]
         places = []
 
         for place in data:
@@ -82,10 +79,9 @@ def get_places(selection, city):  # Return all places in the selected city.
         return places
 
 
-def get_cities(selection):
+def get_cities(selection):  # Get all the available cities.
     if selection == 'restaurant':
         data = requests.get('https://data-collection-dians.herokuapp.com/restaurants').json()
-        data = json.load(data)
         cities_sk = []
 
         for key in data.keys():
@@ -93,7 +89,6 @@ def get_cities(selection):
         return cities_sk
     if selection == 'fastfood':
         data = requests.get('https://data-collection-dians.herokuapp.com/fast_food').json()
-        data = json.load(data)
         cities_sk = []
 
         for key in data.keys():
