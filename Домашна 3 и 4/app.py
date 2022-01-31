@@ -46,7 +46,7 @@ def fastfood_places():
 
 def get_places(selection, city):
     if selection == 'restaurant':
-        with open('Домашна 3/static/json/restaurant_places.json') as json_file:
+        with open('Домашна 3 и 4/static/json/restaurant_places.json') as json_file:
             data = json.load(json_file)[city]
             places = []
 
@@ -59,7 +59,7 @@ def get_places(selection, city):
 
         return places
     if selection == 'fastfood':
-        with open('Домашна 3/static/json/fast_food_places.json') as json_file:
+        with open('Домашна 3 и 4/static/json/fast_food_places.json') as json_file:
             data = json.load(json_file)[city]
             places = []
 
@@ -74,7 +74,7 @@ def get_places(selection, city):
 
 def get_cities(selection):
     if selection == 'restaurant':
-        with open('Домашна 3/static/json/restaurant_places.json') as json_file:
+        with open('Домашна 3 и 4/static/json/restaurant_places.json') as json_file:
             data = json.load(json_file)
             cities_sk = []
 
@@ -82,7 +82,7 @@ def get_cities(selection):
                 cities_sk.append(key)
         return cities_sk
     if selection == 'fastfood':
-        with open('Домашна 3/static/json/fast_food_places.json') as json_file:
+        with open('Домашна 3 и 4/static/json/fast_food_places.json') as json_file:
             data = json.load(json_file)
             cities_sk = []
 
